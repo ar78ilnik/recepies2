@@ -6,7 +6,7 @@ export const svgSprive = () => {
 	.pipe(svgSprite({
 		mode: {
 			stack: {
-				sprite: 'sprite.svg'
+				sprite: '../icons/sprite.svg'
 			}
 		}
 	}))

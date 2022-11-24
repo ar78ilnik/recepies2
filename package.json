@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "gulp",
+    "build": "gulp --build",
     "svgSprive": "gulp svgSprive"
   },
   "repository": {

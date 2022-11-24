@@ -5,7 +5,7 @@ import {plugins} from "./gulp/config/plugins.js";
 
 global.app = {
 	isBuild: process.argv.includes('--build'),
-	isDev: !process.argv.includes('--build')
+	isDev: !process.argv.includes('--build'),
 	path: path,
 	gulp: gulp,
 	plugins: plugins
@@ -31,5 +31,9 @@ export {svgSprive}
 const mainTasks = gulp.parallel(html, scss, js, images);
 
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
+const build = gulp.series(reset, mainTasks);
+
+export {dev}
+export {build}
          
 gulp.task('default', dev);

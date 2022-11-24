@@ -6,11 +6,11 @@ import cleanCss from 'gulp-clean-css';
 const sass = gulpSass(dartSass);
 
 export const scss = () => {
-	return app.gulp.src(app.path.src.scss, {sourcemaps: true})
+	return app.gulp.src(app.path.src.scss, {sourcemaps: app.isDev})
 	.pipe(app.plugins.plumber(app.plugins.notify.onError({title: "SCSS", message: "Error: <%= error.message %>"})))
 	.pipe(sass({outputStyle: 'expanded'}))
 	.pipe(app.gulp.dest(app.path.build.scss))
-	.pipe(cleanCss())
+	.pipe(app.plugins.if(app.isBuild, cleanCss()))
 	.pipe(rename({
 		extname: ".min.css"
 	}))
