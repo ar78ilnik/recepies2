@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-@@include('html_components/_head.html', {
-"title": "Spain"
-})
-
-<body class="body">
-    @@include('html_components/_header.html')
-    <h1 class="title title_h1">Испанские рецепты</h1>
-</body>
-<script src="js/app.min.js"></script>
-
+    @@include('html_components/_head.html', {
+    "title": "Испанские рецепты"
+    })
+    <body class="body">
+        @@include('html_components/_header.html')
+        <h1 class="title title_h1">Испанские рецепты</h1>
+        <div class="container container_body">
+            <main class="main">
+                <div class="container container_main">
+                    <section class="today">
+                        <span class="today__title">#Сегодня читают ></span>
+                        <span class="today__tag">#тэги</span>
+                        <span class="today__tag">#тэги</span>
+                        <span class="today__tag">#тэги</span>
+                    </section>
+                    <section class="last">
+                        <h2 class="title title_h2">ПОСЛЕДНИЕ ПОСТЫ</h2>
+                        @@include('html_components/_article_main.html')
+                        @@include('html_components/_article_main.html')
+                    </section>
+                </div>
+            </main>
+            <aside class="aside">
+                <div class="container container_aside">
+                    @@include('html_components/_about.html')
+                    @@include('html_components/_search.html')
+                    <section class="category">
+                        <h2 class="title title_h2">КАТЕГОРИИ:</h2>
+                        @@include('html_components/_list-noMenu.html')
+                    </section>
+                    @@include('html_components/_alpha.html')
+                    @@include('html_components/_tags.html')
+                </div>
+            </aside>
+        </div>
+    </body>
+    <script src="js/app.min.js"></script>
 </html>
