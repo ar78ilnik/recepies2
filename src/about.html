@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-@@include('html_components/head.html', {
-	"title": "About"
+@@include('html_components/_head.html', {
+"title": "About"
 })
-	<body class="body">
-		@@include('html_components/header.html')
-		<h1 class="title title_h1">Испанские рецепты</h1>
-		<div class="container container_body">
-			<main class="main">
-				<div class="container container_main">
-					<section class="today">
-						<span class="today__title">#Сегодня читают ></span>
-						<span class="today__tag">#тэги</span>
-						<span class="today__tag">#тэги</span>
-						<span class="today__tag">#тэги</span>
-					</section>
-					<section class="last">
-						<h2 class="title title_h2">ПОСЛЕДНИЕ ПОСТЫ</h2>
-					</section>
-				</div>
-			</main>
-			<aside class="aside">
-				<div class="container container_aside">
-					<section class="category">
-						<h2 class="title title_h2">КАТЕГОРИИ:</h2>
-					</section>
-				</div>
-			</aside>
-		</div>
-	</body>
-	<script src="js/script.js"></script>
+
+<body class="body">
+    @@include('html_components/_header.html')
+    <h1 class="title title_h1">Испанские рецепты</h1>
+    <div class="container container_body">
+        <main class="main">
+            <div class="container container_main">
+                <section class="today">
+                    <span class="today__title">#Сегодня читают ></span>
+                    <span class="today__tag">#тэги</span>
+                    <span class="today__tag">#тэги</span>
+                    <span class="today__tag">#тэги</span>
+                </section>
+                <section class="last">
+                    <h2 class="title title_h2">ПОСЛЕДНИЕ ПОСТЫ</h2>
+                </section>
+            </div>
+        </main>
+        <aside class="aside">
+            <div class="container container_aside">
+                <section class="category">
+                    <h2 class="title title_h2">КАТЕГОРИИ:</h2>
+                </section>
+            </div>
+        </aside>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
 </html>
