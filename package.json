@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ar78ilnik/recepies2#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.10",
+    "browser-sync": "^2.27.11",
     "del": "^6.1.1",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
@@ -39,7 +39,7 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-html-nosvg": "^1.1.1",
     "gulp-webpcss": "^1.1.1",
-    "sass": "^1.56.1",
+    "sass": "^1.57.1",
     "webpack": "^5.75.0",
     "webpack-stream": "^7.0.0"
   }
