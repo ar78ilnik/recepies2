@@ -1,0 +1,13 @@
+.icon {
+    stroke: var(--black);
+
+    &-menu,
+    .button_menu--open &-cross {
+        display: block;
+    }
+
+    &-cross,
+    .button_menu--open &-menu {
+        display: none;
+    }
+}
