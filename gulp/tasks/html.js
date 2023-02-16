@@ -1,5 +1,4 @@
 import fileInclude from "gulp-file-include";
-//import webpHtmlNosvg from "gulp-webp-html-nosvg";
 import versionNumber from "gulp-version-number";
 
 export const html = () => {
@@ -9,7 +8,7 @@ export const html = () => {
             message: "Error: <%= error.message %>"
         })))
         .pipe(fileInclude())
-        .pipe(app.plugins.if(app.isBuild, versionNumber({
+        .pipe(versionNumber({
             'value': '%DT%',
             'append': {
                 'key': '_v',
@@ -19,7 +18,7 @@ export const html = () => {
             'output': {
                 'file': 'gulp/version.json'
             }
-        })))
+        }))
         .pipe(app.gulp.dest(app.path.build.html))
         .pipe(app.plugins.browserSync.stream());
 }

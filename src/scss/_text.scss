@@ -1,3 +1,27 @@
 .text {
-    font-size: 87.5%;
+    &_promo {
+        width: 290px;
+        font-size: 87.5%;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .text {
+        &_promo {
+            width: 357px;
+            font-size: 100%;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .text {
+        &_promo {
+            width: 508px;
+            font-size: 125%;
+            text-align: left;
+        }
+    }
 }

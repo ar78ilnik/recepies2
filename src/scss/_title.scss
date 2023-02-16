@@ -2,5 +2,24 @@
     &_h1 {
         text-transform: uppercase;
         font-weight: 700;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .title {
+        &_h1 {
+            font-size: 300%;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .title {
+        &_h1 {
+            width: 723px;
+            font-size: 400%;
+            text-align: left;
+        }
     }
 }
