@@ -10,3 +10,10 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media (min-width: 1440px) {
+    .link {
+        align-items: flex-start;
+        width: 160px;
+    }
+}

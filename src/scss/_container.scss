@@ -7,3 +7,9 @@
         justify-content: space-between;
     }
 }
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1326px;
+    }
+}
