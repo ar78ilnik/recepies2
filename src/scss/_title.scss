@@ -1,8 +1,19 @@
 .title {
+    text-transform: uppercase;
+
     &_h1 {
-        text-transform: uppercase;
         font-weight: 700;
         text-align: center;
+    }
+
+    &_h2 {
+        font-size: 125%;
+        position: relative;
+
+        &--one {
+            display: block;
+            text-align: center;
+        }
     }
 }
 

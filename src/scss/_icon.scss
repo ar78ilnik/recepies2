@@ -10,4 +10,13 @@
     .button_menu--open &-menu {
         display: none;
     }
+
+    &_header {
+        width: 310px;
+        height: 85px;
+        position: absolute;
+        top: -30px;
+        left: 13px;
+        z-index: -5;
+    }
 }

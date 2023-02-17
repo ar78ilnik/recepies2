@@ -6,6 +6,12 @@
         display: flex;
         justify-content: space-between;
     }
+
+    &_main {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
 }
 
 @media (min-width: 1440px) {
