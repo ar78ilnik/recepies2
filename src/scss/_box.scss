@@ -1,0 +1,15 @@
+.box {
+	&_inst {
+		display: flex;
+		flex-direction: column;
+		gap: 34px;
+	}
+	&__item {
+		&_inst {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 12px;
+		}
+	}
+}

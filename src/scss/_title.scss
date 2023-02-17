@@ -1,19 +1,26 @@
 .title {
     text-transform: uppercase;
-
-    &_h1 {
-        font-weight: 700;
-        text-align: center;
-    }
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
 
     &_h2 {
         font-size: 125%;
         position: relative;
+        margin-bottom: 40px;
 
-        &--one {
+        &--one,
+        &--two {
             display: block;
-            text-align: center;
+            width: 240px;
         }
+        &--two {
+            margin-left: 0;
+        }
+    }
+
+    &_h3 {
+        font-size: 87.5%;
     }
 }
 
