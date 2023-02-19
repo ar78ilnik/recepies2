@@ -1,43 +1,59 @@
 .title {
     text-transform: uppercase;
     font-weight: 700;
-    margin: 0 auto;
     text-align: center;
 
     &_h2 {
         font-size: 125%;
         position: relative;
-        margin-bottom: 40px;
 
         &--one,
         &--two {
             display: block;
             width: 240px;
         }
+        &--one {
+            align-self: center;
+        }
         &--two {
-            margin-left: 0;
         }
     }
 
     &_h3 {
+        text-align: left;
         font-size: 87.5%;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 744px) {
     .title {
         &_h1 {
-            font-size: 300%;
+            font-size: 225%;
+        }
+        &_h2 {
+            font-size: 225%;
+            &--one,
+            &--two {
+                width: 450px;
+            }
+        }
+        &_h3 {
+            font-size: 125%;
         }
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1728px) {
     .title {
         &_h1 {
             width: 850px;
             font-size: 350%;
             text-align: left;
+        }
+        &_h2 {
+            &--one {
+                font-size: 350%;
+            }
         }
     }
 }

@@ -19,4 +19,34 @@
         left: -40px;
         z-index: -5;
     }
+    &_inst {
+        width: 140px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 744px) {
+    .icon {
+        &_header {
+            width: 450px;
+            height: 145px;
+            top: -50px;
+            left: 0;
+        }
+        &_inst {
+            width: 219px;
+            height: 232px;
+        }
+    }
+}
+
+@media (min-width: 1728px) {
+    .icon {
+        &_header {
+            width: 554px;
+            height: 180px;
+            top: -70px;
+            left: -50px;
+        }
+    }
 }

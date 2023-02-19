@@ -10,11 +10,11 @@
     &_main {
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 80px;
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1728px) {
     .container {
         width: 1326px;
     }

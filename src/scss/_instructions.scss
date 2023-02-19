@@ -1,23 +1,11 @@
 .instructions {
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 }
-.instructions::before {
-	display: block;
-	content: '';
-	width: 88px;
-	height: 253px;
-	background-image: url(../img/arrow2-mobile.png);
-	position: absolute;
-	top: 470px;
-	left: 0;
-}
-.instructions::after {
-	display: block;
-	content: '';
-	width: 47px;
-	height: 289px;
-	background-image: url(../img/arrow1-mobile.png);
-	position: absolute;
-	top: 150px;
-	right: 0;
+
+@media (min-width: 744px) {
+	.instructions {
+		gap: 100px;
+	}
 }
