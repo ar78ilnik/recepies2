@@ -9,6 +9,23 @@
         font-size: 87.5%;
         text-align: center;
     }
+    &_emissions {
+        width: 215px;
+        font-size: 87.5%;
+        position: relative;
+    }
+    &_emissions::before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 98px;
+        height: 68px;
+        background-image: url(../img/ellipse-mobile.png);
+        background-repeat: no-repeat;
+        top: -15px;
+        left: 0;
+        z-index: -1;
+    }
 }
 
 @media (min-width: 744px) {
@@ -20,6 +37,22 @@
         &_inst {
             font-size: 125%;
         }
+        &_emissions {
+            font-size: 150%;
+            width: 352px;
+        }
+        &_emissions::before {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 196px;
+            height: 140px;
+            background-image: url(../img/ellipse-tablet.png);
+            background-repeat: no-repeat;
+            top: -15px;
+            left: 0;
+            z-index: -1;
+        }
     }
 }
 
@@ -29,6 +62,9 @@
             width: 508px;
             font-size: 125%;
             text-align: left;
+        }
+        &_emissions {
+            width: 508px;
         }
     }
 }

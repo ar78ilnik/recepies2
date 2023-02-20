@@ -1,6 +1,7 @@
 .box {
 	&_inst,
-	&_recepies {
+	&_recepies,
+	&_emissions {
 		display: flex;
 		flex-direction: column;
 		gap: 50px;
@@ -28,16 +29,15 @@
 	}
 	&__item {
 		&_inst,
-		&_recepies {
+		&_recepies,
+		&_emissions {
 			display: flex;
 			flex-direction: column;
 			gap: 12px;
 		}
-		&_inst {
+		&_inst,
+		&_emissions {
 			align-items: center;
-		}
-		&_recepies {
-
 		}
 	}
 }
@@ -71,7 +71,8 @@
 
 @media (min-width: 1728px) {
 	.box {
-		&_inst {
+		&_inst,
+		&_emissions {
 			flex-direction: row;
 			justify-content: space-between;
 		}
@@ -90,7 +91,8 @@
 			background-image: url(../img/arrow2-pc.png);
 		}
 		&__item {
-			&_inst {
+			&_inst,
+			&_emissions {
 				flex-basis: 33%;
 			}
 			&_recepies {

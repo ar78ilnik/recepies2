@@ -11,7 +11,8 @@
         display: none;
     }
 
-    &_header {
+    &_header,
+    &_three {
         width: 310px;
         height: 85px;
         position: absolute;
@@ -22,6 +23,11 @@
     &_inst {
         width: 140px;
         height: 150px;
+    }
+    &_three {
+        width: 258px;
+        height: 85px;
+        left: 10px;
     }
 }
 
@@ -36,6 +42,11 @@
         &_inst {
             width: 219px;
             height: 232px;
+        }
+        &_three {
+            width: 465px;
+            height: 175px;
+            top: -60px;
         }
     }
 }
