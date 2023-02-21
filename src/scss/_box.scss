@@ -1,103 +1,134 @@
 .box {
-	&_inst,
-	&_recepies,
-	&_emissions {
-		display: flex;
-		flex-direction: column;
-		gap: 50px;
-		position: relative;
-	}
-	&_inst::before,
-	&_inst::after {
-		display: block;
-		content: '';
-		position: absolute;
-	}
-	&_inst::before {
-		top: 400px;
-		left: 0;
-		width: 88px;
-		height: 253px;
-		background-image: url(../img/arrow1-mobile.png);
-	}
-	&_inst::after {
-		top: 50px;
-		right: 0;
-		width: 47px;
-		height: 289px;
-		background-image: url(../img/arrow2-mobile.png);
-	}
-	&__item {
-		&_inst,
-		&_recepies,
-		&_emissions {
-			display: flex;
-			flex-direction: column;
-			gap: 12px;
-		}
-		&_inst,
-		&_emissions {
-			align-items: center;
-		}
-	}
+
+    &_inst,
+    &_recepies,
+    &_emissions {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        position: relative;
+    }
+
+    &_inst::before,
+    &_inst::after {
+        display: block;
+        content: '';
+        position: absolute;
+    }
+
+    &_inst::before {
+        top: 400px;
+        left: 0;
+        width: 88px;
+        height: 253px;
+        background-image: url(../img/arrow1-mobile.png);
+    }
+
+    &_inst::after {
+        top: 50px;
+        right: 0;
+        width: 47px;
+        height: 289px;
+        background-image: url(../img/arrow2-mobile.png);
+    }
+
+    &__item {
+
+        &_inst,
+        &_recepies,
+        &_emissions {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        &_inst,
+        &_emissions {
+            align-items: center;
+        }
+
+        &_questions {
+            transform: translateZ(0);
+            border-top: 1px solid var(--text);
+        }
+    }
 }
 
 @media (min-width: 744px) {
-	.box {
-		&_inst::before {
-			top: 540px;
-			left: 0;
-			width: 126px;
-			height: 487px;
-			background-image: url(../img/arrow2-tablet.png);
-		}
-		&_inst::after {
-			top: 50px;
-			right: 0;
-			width: 81px;
-			height: 444px;
-			background-image: url(../img/arrow1-tablet.png);
-		}
-		&__item {
-			&_inst {
-				gap: 24px;
-			}
-			&_recepies {
-				gap: 20px;
-			}
-		}
-	}
+    .box {
+        &_inst::before {
+            top: 540px;
+            left: 0;
+            width: 126px;
+            height: 487px;
+            background-image: url(../img/arrow2-tablet.png);
+        }
+
+        &_inst::after {
+            top: 50px;
+            right: 0;
+            width: 81px;
+            height: 444px;
+            background-image: url(../img/arrow1-tablet.png);
+        }
+
+        &_questions {
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+        &__item {
+            &_inst {
+                gap: 24px;
+            }
+
+            &_recepies {
+                gap: 20px;
+            }
+        }
+    }
 }
 
 @media (min-width: 1728px) {
-	.box {
-		&_inst,
-		&_emissions {
-			flex-direction: row;
-			justify-content: space-between;
-		}
-		&_inst::before {
-			top: 30px;
-			left: 230px;
-			width: 320px;
-			height: 132px;
-			background-image: url(../img/arrow1-pc.png);
-		}
-		&_inst::after {
-			top: 50px;
-			right: 300px;
-			width: 276px;
-			height: 153px;
-			background-image: url(../img/arrow2-pc.png);
-		}
-		&__item {
-			&_inst,
-			&_emissions {
-				flex-basis: 33%;
-			}
-			&_recepies {
-				flex-direction: initial;
-			}
-		}
-	}
+    .box {
+
+        &_inst,
+        &_emissions {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &_inst::before {
+            top: 30px;
+            left: 230px;
+            width: 320px;
+            height: 132px;
+            background-image: url(../img/arrow1-pc.png);
+        }
+
+        &_inst::after {
+            top: 50px;
+            right: 300px;
+            width: 276px;
+            height: 153px;
+            background-image: url(../img/arrow2-pc.png);
+        }
+
+        &__item {
+
+            &_inst,
+            &_emissions {
+                flex-basis: 33%;
+            }
+
+            &_recepies {
+                flex-direction: initial;
+            }
+
+            &_questions {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
 }

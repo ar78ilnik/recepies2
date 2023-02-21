@@ -9,11 +9,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    &_questions {
+        width: auto;
+        justify-self: end;
+    }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 744px) {
+    .link {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        align-self: start;
+    }
+}
+
+@media (min-width: 1728px) {
     .link {
         align-items: flex-start;
         width: 160px;
+
+        &_questions {
+            width: 180px;
+            font-size: 125%;
+        }
     }
 }

@@ -11,6 +11,12 @@
         display: none;
     }
 
+    &_one {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     &_header,
     &_three {
         width: 310px;
@@ -20,14 +26,17 @@
         left: -40px;
         z-index: -5;
     }
+
     &_inst {
         width: 140px;
         height: 150px;
     }
+
     &_three {
-        width: 258px;
-        height: 85px;
-        left: 10px;
+        width: 350px;
+        height: 115px;
+        left: -40px;
+        top: -50px;
     }
 }
 
@@ -39,10 +48,12 @@
             top: -50px;
             left: 0;
         }
+
         &_inst {
             width: 219px;
             height: 232px;
         }
+
         &_three {
             width: 465px;
             height: 175px;
@@ -58,6 +69,11 @@
             height: 180px;
             top: -70px;
             left: -50px;
+        }
+
+        &_one {
+            width: 540px;
+            height: 182px;
         }
     }
 }

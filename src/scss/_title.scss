@@ -12,11 +12,18 @@
             display: block;
             width: 240px;
         }
+
         &--one {
             align-self: center;
         }
+
         &--three {
             align-self: flex-end;
+        }
+
+        &--four {
+            justify-self: start;
+            margin-bottom: 40px;
         }
     }
 
@@ -31,13 +38,21 @@
         &_h1 {
             font-size: 225%;
         }
+
         &_h2 {
             font-size: 225%;
+
             &--one,
             &--two {
                 width: 450px;
             }
+
+            &--four {
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }
         }
+
         &_h3 {
             font-size: 125%;
         }
@@ -51,9 +66,14 @@
             font-size: 350%;
             text-align: left;
         }
+
         &_h2 {
             &--one {
                 font-size: 350%;
+            }
+
+            &--four {
+                margin-bottom: 100px;
             }
         }
     }
