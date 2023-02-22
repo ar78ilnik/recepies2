@@ -1,5 +1,9 @@
 .icon {
-    stroke: var(--black);
+    &_vector {
+        width: 140px;
+        height: 150px;
+        stroke: var(--text);
+    }
 
     &-menu,
     .button_menu--open &-cross {
@@ -10,70 +14,12 @@
     .button_menu--open &-menu {
         display: none;
     }
-
-    &_one {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    &_header,
-    &_three {
-        width: 310px;
-        height: 85px;
-        position: absolute;
-        top: -30px;
-        left: -40px;
-        z-index: -5;
-    }
-
-    &_inst {
-        width: 140px;
-        height: 150px;
-    }
-
-    &_three {
-        width: 350px;
-        height: 115px;
-        left: -40px;
-        top: -50px;
-    }
 }
 
 @media (min-width: 744px) {
-    .icon {
-        &_header {
-            width: 450px;
-            height: 145px;
-            top: -50px;
-            left: 0;
-        }
-
-        &_inst {
-            width: 219px;
-            height: 232px;
-        }
-
-        &_three {
-            width: 465px;
-            height: 175px;
-            top: -60px;
-        }
-    }
+    .icon {}
 }
 
 @media (min-width: 1728px) {
-    .icon {
-        &_header {
-            width: 554px;
-            height: 180px;
-            top: -70px;
-            left: -50px;
-        }
-
-        &_one {
-            width: 540px;
-            height: 182px;
-        }
-    }
+    .icon {}
 }
