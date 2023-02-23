@@ -7,6 +7,7 @@
 *.psd
 *.sublime*
 package-lock.json
+gulp/version.json
 dist/
 node_modules/
 app/css/*.css
