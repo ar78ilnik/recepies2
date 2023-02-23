@@ -1,34 +1,39 @@
 .title {
     text-transform: uppercase;
     font-weight: 700;
-    text-align: center;
 
     &_h2 {
-        font-size: 125%;
-        position: relative;
-
-        &--one,
-        &--two {
-            display: block;
-            width: 240px;
-        }
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
         &--one {
+            width: 258px;
+            height: 85px;
+            background-image: url(../img/sprite.svg#verde);
             align-self: center;
         }
-
-        &--three {
-            align-self: flex-end;
+        &--two {
+            width: 172px;
+            height: 76px;
+            background-image: url(../img/sprite.svg#marron);
+            align-self: flex-start;
         }
-
-        &--four {
-            justify-self: start;
-            margin-bottom: 40px;
+        &--three {
+            width: 280px;
+            height: 85px;
+            background-image: url(../img/sprite.svg#verde);
+            align-self: flex-end;
         }
     }
 
+    &_h2 {
+        font-size: 125%;
+    }
+
     &_h3 {
-        text-align: left;
         font-size: 87.5%;
     }
 }
@@ -42,9 +47,19 @@
         &_h2 {
             font-size: 225%;
 
-            &--one,
+            &--one {
+                width: 510px;
+                height: 142px;
+            }
+
             &--two {
-                width: 450px;
+                width: 345px;
+                height: 143px;
+            }
+
+            &--three {
+                width: 495px;
+                height: 175px;
             }
 
             &--four {
@@ -68,8 +83,19 @@
         }
 
         &_h2 {
+            font-size: 350%;
             &--one {
-                font-size: 350%;
+                width: 554px;
+                height: 180px;
+                text-align: center;
+            }
+            &--two {
+                width: 529px;
+                height: 171px;
+            }
+            &--three {
+                width: 817px;
+                height: 217px;
             }
 
             &--four {
