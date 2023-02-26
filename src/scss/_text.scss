@@ -29,6 +29,13 @@
         height: 0;
         transition: all .4s;
         margin-bottom: 16px;
+        text-align: left;
+    }
+    &_us {
+        text-align: left;
+    }
+    &_mind {
+        text-align: left;
     }
 }
 
@@ -88,13 +95,15 @@
             font-size: 125%;
             text-align: left;
         }
-
         &_emissions {
             width: 508px;
         }
-
         &_questions {
-            flex-basis: 40%;
+            width: 40%;
+        }
+        &_us {
+            font-size: 108%;
+            line-height: 1.6;
         }
     }
 }

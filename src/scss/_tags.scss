@@ -14,5 +14,11 @@
 		&_no-meat {
 			background-color: var(--no-meat);
 		}
+		&_status {
+			border: 1px solid var(--green);
+		}
+		&_articles {
+			border: 1px solid var(--brown);
+		}
 	}
 }

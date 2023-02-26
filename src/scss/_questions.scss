@@ -1,6 +1,6 @@
 .questions {
     display: grid;
-    grid-template-rows: repeat(3, min-content);
+    grid-template-rows: 200px repeat(2, min-content);
 
     &__input {
         display: none;
@@ -12,7 +12,7 @@
         display: block;
         text-transform: uppercase;
         cursor: pointer;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 210%;
     }
 
@@ -43,7 +43,7 @@
 @media (min-width: 744px) {
     .questions {
         grid-template-columns: 2fr, 1fr;
-        grid-template-rows: repeat(2, min-content);
+        grid-template-rows: 234px min-content;
 
         &__label {
             font-size: 150%;

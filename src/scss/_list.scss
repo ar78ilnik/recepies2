@@ -1,3 +1,6 @@
 .list {
     display: none;
+    &_footer {
+        display: block;
+    }
 }
