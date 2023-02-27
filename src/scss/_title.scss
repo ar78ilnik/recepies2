@@ -44,7 +44,10 @@
             height: 86px;
             background-image: url(../img/sprite.svg#marron);
             align-self: flex-end;
-        } 
+        }
+        &--footer {
+            display: none;
+        }
     }
     &_h3 {
         font-size: 87.5%;

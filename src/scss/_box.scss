@@ -7,11 +7,17 @@
     &__item {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
         gap: 16px;
 
         &_arrow {
             position: relative;
+        }
+        &_instructions {
+            align-items: center;
+        }
+        &_emissions {
+            align-items: center;
         }
 
         &_arrow:before {

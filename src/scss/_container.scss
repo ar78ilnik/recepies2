@@ -17,8 +17,22 @@
     }
 }
 
+@media (min-width: 744px) {
+    .container {
+        &_footer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+    }
+}
+
 @media (min-width: 1728px) {
     .container {
         width: 1326px;
+        &_footer {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
+        }
     }
 }

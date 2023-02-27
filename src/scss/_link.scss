@@ -9,10 +9,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     &_questions {
         width: auto;
         justify-self: end;
+    }
+    &_footer {
+        line-height: 1.4;
+        font-weight: 400;
+        margin-bottom: 1.14em;
     }
 }
 

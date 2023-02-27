@@ -1,0 +1,26 @@
+.footer {}
+
+@media (min-width: 744px) {
+	.footer {
+		&__partners,
+		&__social {
+			justify-self: end;
+		}
+	}
+}
+
+@media (min-width: 1728px) {
+	.footer {
+		&__nav {
+			justify-self: start;
+		}
+		&__partners,
+		&__delivery
+		 {
+			justify-self: center;
+		}
+		&__social {
+			justify-self: end;
+		}
+	}
+}

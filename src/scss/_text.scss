@@ -5,6 +5,7 @@
 
     &_recepies {
         text-align: left;
+        width: 100%;
     }
 
     &_emissions {
@@ -56,6 +57,9 @@
         &_inst {
             font-size: 125%;
         }
+        &_recepies {
+            width: 100%;
+        }
 
         &_emissions {
             font-size: 150%;
@@ -91,6 +95,7 @@
         &_questions {
             font-size: 125%;
             margin-bottom: 24px;
+            width: 80%;
         }
     }
 }
