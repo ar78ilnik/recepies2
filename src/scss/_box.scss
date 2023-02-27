@@ -3,59 +3,71 @@
     flex-direction: column;
     align-items: stretch;
     gap: 40px;
+
     &__item {
         display: flex;
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
         gap: 16px;
 
         &_arrow {
             position: relative;
         }
-        &_arrow::before {
+
+        &_arrow:before {
             display: block;
             content: '';
             position: absolute;
             top: 130px;
-            left: 0;
-            width: 88px;
+            left: -80px;
+            width: 253px;
             height: 253px;
             background-image: url(../img/sprite.svg#arrow1);
+            background-repeat: no-repeat;
         }
+
         &_arrow::after {
             display: block;
             content: '';
             position: absolute;
             top: -220px;
-            right: 0;
-            width: 47px;
+            right: -100px;
+            width: 289px;
             height: 289px;
             background-image: url(../img/sprite.svg#arrow2);
+            background-repeat: no-repeat;
         }
+
         &_questions {
             transform: translateZ(0);
             border-top: 1px solid var(--text);
             align-items: flex-start;
         }
+
         &_values {
             gap: 0;
         }
     }
+
     &__img {
         width: 145px;
         height: 156px;
     }
+
     &__info {
         display: flex;
         flex-direction: column;
         gap: 12px;
     }
+
     &__picture {
-        flex-basis: 50%;
+        width: 100%;
     }
+
     &_questions {
         gap: 0;
     }
+
     &__mind {
         display: flex;
         flex-direction: column;
@@ -66,6 +78,7 @@
         padding-left: 16px;
         background-color: var(--brown);
         color: var(--us-text-white);
+
         &_green {
             color: var(--text);
             background-color: var(--green);
@@ -96,26 +109,29 @@
                 content: '';
                 position: absolute;
                 top: 130px;
-                left: 0;
-                width: 126px;
+                left: -120px;
+                width: 487px;
                 height: 487px;
                 background-image: url(../img/sprite.svg#arrow1);
             }
+
             &_arrow::after {
                 display: block;
                 content: '';
                 position: absolute;
                 top: -310px;
-                right: 0;
-                width: 81px;
+                right: -110px;
+                width: 444px;
                 height: 444px;
                 background-image: url(../img/sprite.svg#arrow2);
             }
         }
+
         &__img {
             width: 219px;
             height: 232px;
         }
+
         &__mind {
             gap: 24px;
         }
@@ -129,28 +145,34 @@
         &_recepies {
             flex-direction: column;
         }
+
         &_emissions {
             gap: 0;
             justify-content: space-between;
         }
+
         &_questions {
             flex-direction: column;
         }
+
         &_values {
             flex-direction: column;
         }
+
         &__item {
             flex-basis: 30%;
+
             &_arrow::before {
                 display: block;
                 content: '';
                 position: absolute;
-                top: 50px;
+                top: -30px;
                 left: -220px;
                 width: 320px;
-                height: 132px;
-                background-image: url(../img/sprite.svg#arrow);
+                height: 320px;
+                background-image: url(../img/sprite.svg#arrow3);
             }
+
             &_arrow::after {
                 display: block;
                 content: '';
@@ -158,44 +180,57 @@
                 top: 0px;
                 right: -160px;
                 width: 276px;
-                height: 153px;
-                background-image: url(../img/sprite.svg#arrow2);
+                height: 276px;
+                background-image: url(../img/sprite.svg#arrow4);
             }
+
             &_recepies {
                 flex-direction: row;
                 align-items: flex-start;
                 justify-content: space-between;
             }
+
             &_recepies picture {
                 flex-basis: 50%;
             }
+
             &_questions {
                 flex-direction: row;
             }
+
             &_us {
                 flex-basis: 100%;
                 flex-direction: inherit;
                 align-items: flex-start;
                 gap: 88px;
             }
+
             &_values {
                 flex-direction: row;
                 align-items: inherit;
             }
+
+            &_values picture {
+                flex-grow: 1;
+            }
+
             &_values:nth-child(even) {
                 flex-direction: row-reverse;
             }
         }
+
         &__img {
             width: 200px;
             height: 212px;
         }
+
         &__info {
             flex-basis: 45%;
             gap: 32px;
         }
+
         &__mind {
-            flex-basis: 50%;
+            flex-grow: 1;
             padding: 0;
         }
     }
