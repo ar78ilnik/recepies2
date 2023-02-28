@@ -1,0 +1,126 @@
+.text {
+    font-size: 87.5%;
+    width: 80%;
+    text-align: center;
+
+    &_recepies {
+        text-align: left;
+        width: 100%;
+    }
+
+    &_emissions {
+        text-align: initial;
+        position: relative;
+    }
+
+    &_emissions::before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 98px;
+        height: 68px;
+        background-image: url(../img/ellipse-mobile.png);
+        background-repeat: no-repeat;
+        top: -15px;
+        left: -10%;
+        z-index: -1;
+    }
+
+    &_questions {
+        width: 80%;
+        overflow: hidden;
+        height: 0;
+        transition: all .4s;
+        margin-bottom: 16px;
+        text-align: left;
+    }
+
+    &_us {
+        text-align: left;
+    }
+
+    &_mind {
+        text-align: left;
+    }
+}
+
+@media (min-width: 744px) {
+    .text {
+        font-size: 125%;
+        width: 60%;
+
+        &_promo {
+            width: 357px;
+            font-size: 100%;
+        }
+
+        &_inst {
+            font-size: 125%;
+        }
+        &_recepies {
+            width: 100%;
+        }
+
+        &_emissions {
+            font-size: 150%;
+            width: 370px;
+        }
+
+        &_emissions::before {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 196px;
+            height: 140px;
+            background-image: url(../img/ellipse-tablet.png);
+            background-repeat: no-repeat;
+            top: -15px;
+            left: 0;
+            z-index: -1;
+        }
+
+        &_emissions::before {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 196px;
+            height: 140px;
+            background-image: url(../img/ellipse-tablet.png);
+            background-repeat: no-repeat;
+            top: -90px;
+            left: 0;
+            z-index: -1;
+        }
+
+        &_questions {
+            font-size: 125%;
+            margin-bottom: 24px;
+            width: 80%;
+        }
+    }
+}
+
+@media (min-width: 1728px) {
+    .text {
+        width: 90%;
+
+        &_promo {
+            width: 508px;
+            font-size: 125%;
+            text-align: left;
+        }
+
+        &_emissions {
+            width: 508px;
+        }
+
+        &_questions {
+            width: 40%;
+        }
+
+        &_us {
+            font-size: 108%;
+            line-height: 1.6;
+        }
+    }
+}

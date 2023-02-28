@@ -1,0 +1,41 @@
+.link {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-weight: 700;
+    line-height: 1.125;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 87.5%;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_questions {
+        width: auto;
+        justify-self: end;
+    }
+    &_footer {
+        line-height: 1.4;
+        font-weight: 400;
+        margin-bottom: 1.14em;
+    }
+}
+
+@media (min-width: 744px) {
+    .link {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        align-self: start;
+    }
+}
+
+@media (min-width: 1728px) {
+    .link {
+        align-items: flex-start;
+        width: 160px;
+
+        &_questions {
+            width: 210px;
+            font-size: 125%;
+        }
+    }
+}

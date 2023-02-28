@@ -1,0 +1,11 @@
+.emissions {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+@media (min-width: 1728px) {
+	.emissions {
+		gap: 50px;
+	}
+}

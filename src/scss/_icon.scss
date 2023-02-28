@@ -1,0 +1,19 @@
+.icon {
+    &-menu,
+    .button_menu--open &-cross {
+        display: block;
+    }
+
+    &-cross,
+    .button_menu--open &-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 744px) {
+    .icon {}
+}
+
+@media (min-width: 1728px) {
+    .icon {}
+}

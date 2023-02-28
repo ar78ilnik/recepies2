@@ -1,0 +1,130 @@
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &_h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        font-size: 125%;
+        &--one {
+            width: 258px;
+            height: 85px;
+            background-image: url(../img/sprite.svg#verde);
+            align-self: center;
+        }
+        &--two {
+            width: 172px;
+            height: 76px;
+            background-image: url(../img/sprite.svg#marron);
+            align-self: flex-start;
+        }
+        &--three {
+            width: 280px;
+            height: 85px;
+            background-image: url(../img/sprite.svg#verde);
+            align-self: flex-end;
+        }
+        &--four {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            background-image: url(../img/sprite.svg#marron);
+        }
+        &--five {
+            width: 145px;
+            height: 73px;
+            background-image: url(../img/sprite.svg#verde);
+            align-self: center;
+        }
+        &--six {
+            width: 249px;
+            height: 86px;
+            background-image: url(../img/sprite.svg#marron);
+            align-self: flex-end;
+        }
+        &--footer {
+            display: none;
+        }
+    }
+    &_h3 {
+        font-size: 87.5%;
+    }
+}
+
+@media (min-width: 744px) {
+    .title {
+        &_h1 {
+            font-size: 225%;
+        }
+
+        &_h2 {
+            font-size: 225%;
+
+            &--one {
+                width: 510px;
+                height: 142px;
+            }
+
+            &--two {
+                width: 345px;
+                height: 143px;
+            }
+
+            &--three {
+                width: 495px;
+                height: 175px;
+            }
+
+            &--four {
+                height: 180px;
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }
+            &--five {
+                 width: 271px;
+                 height: 125px;
+            }
+        }
+
+        &_h3 {
+            font-size: 125%;
+        }
+    }
+}
+
+@media (min-width: 1728px) {
+    .title {
+        &_h1 {
+            width: 850px;
+            font-size: 350%;
+            text-align: left;
+        }
+
+        &_h2 {
+            font-size: 350%;
+            &--one {
+                width: 554px;
+                height: 180px;
+                text-align: center;
+            }
+            &--two {
+                width: 529px;
+                height: 171px;
+            }
+            &--three {
+                width: 817px;
+                height: 217px;
+            }
+            &--four {
+                width: 430px;
+            }
+            &--five {
+                width: 308px;
+                height: 161px;
+            }
+        }
+    }
+}

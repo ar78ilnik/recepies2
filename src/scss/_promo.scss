@@ -1,0 +1,13 @@
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+@media (min-width: 1440px) {
+    .promo {
+        margin-top: 120px;
+        align-items: flex-start;
+    }
+}
