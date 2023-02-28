@@ -52,6 +52,13 @@
             align-self: flex-end;
         }
 
+        &--seven {
+            width: 165px;
+            height: 85px;
+            background-image: url(../img/sprite.svg#verde);
+            align-self: flex-start;
+        }
+
         &--footer {
             display: none;
         }
