@@ -1,50 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "recepies2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "type": "module",
-  "scripts": {
-    "dev": "gulp",
-    "build": "gulp --build",
-    "svgSprive": "gulp svgSprive"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ar78ilnik/recepies2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ar78ilnik/recepies2/issues"
-  },
-  "homepage": "https://github.com/ar78ilnik/recepies2#readme",
-  "devDependencies": {
-    "browser-sync": "^2.27.11",
-    "del": "^6.1.1",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^2.3.0",
-    "gulp-file-include": "^2.3.0",
-    "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^8.0.0",
-    "gulp-newer": "^1.4.0",
-    "gulp-notify": "^4.0.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-svg-sprite": "^2.0.1",
-    "gulp-version-number": "^0.2.4",
-    "gulp-webp": "^4.0.1",
-    "gulp-webp-html-nosvg": "^1.1.1",
-    "gulp-webpcss": "^1.1.1",
-    "sass": "^1.58.3",
-    "webpack": "^5.75.0",
-    "webpack-stream": "^7.0.0"
-  }
-=======
     "name": "recepies2",
     "version": "1.0.0",
     "description": "",
@@ -65,7 +19,7 @@
     },
     "homepage": "https://github.com/ar78ilnik/recepies2#readme",
     "devDependencies": {
-        "browser-sync": "^2.27.11",
+        "browser-sync": "^2.28.1",
         "del": "^6.1.1",
         "gulp": "^4.0.2",
         "gulp-clean-css": "^4.3.0",
@@ -83,9 +37,8 @@
         "gulp-webp": "^4.0.1",
         "gulp-webp-html-nosvg": "^1.1.1",
         "gulp-webpcss": "^1.1.1",
-        "sass": "^1.58.1",
+        "sass": "^1.58.3",
         "webpack": "^5.75.0",
         "webpack-stream": "^7.0.0"
     }
->>>>>>> header
 }
