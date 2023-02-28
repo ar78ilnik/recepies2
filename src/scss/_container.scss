@@ -35,6 +35,10 @@
     .container {
         width: 1326px;
 
+        &_main {
+            margin-bottom: 9em;
+        }
+
         &_footer {
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: 1fr;

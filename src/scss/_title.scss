@@ -10,45 +10,53 @@
         background-position: 50% 50%;
         background-size: cover;
         font-size: 125%;
+
         &--one {
             width: 258px;
             height: 85px;
             background-image: url(../img/sprite.svg#verde);
             align-self: center;
         }
+
         &--two {
             width: 172px;
             height: 76px;
             background-image: url(../img/sprite.svg#marron);
             align-self: flex-start;
         }
+
         &--three {
             width: 280px;
             height: 85px;
             background-image: url(../img/sprite.svg#verde);
             align-self: flex-end;
         }
+
         &--four {
             grid-column: 1/2;
             grid-row: 1/2;
             background-image: url(../img/sprite.svg#marron);
         }
+
         &--five {
-            width: 145px;
-            height: 73px;
-            background-image: url(../img/sprite.svg#verde);
-            align-self: center;
+            width: 238px;
+            height: 76px;
+            background-image: url(../img/sprite.svg#marron);
+            align-self: flex-start;
         }
+
         &--six {
             width: 249px;
             height: 86px;
             background-image: url(../img/sprite.svg#marron);
             align-self: flex-end;
         }
+
         &--footer {
             display: none;
         }
     }
+
     &_h3 {
         font-size: 87.5%;
     }
@@ -83,9 +91,10 @@
                 grid-column: 1/2;
                 grid-row: 1/2;
             }
+
             &--five {
-                 width: 271px;
-                 height: 125px;
+                width: 402px;
+                height: 142px;
             }
         }
 
@@ -105,25 +114,35 @@
 
         &_h2 {
             font-size: 350%;
+
             &--one {
                 width: 554px;
                 height: 180px;
                 text-align: center;
             }
+
             &--two {
                 width: 529px;
                 height: 171px;
             }
+
             &--three {
                 width: 817px;
                 height: 217px;
             }
+
             &--four {
                 width: 430px;
             }
+
             &--five {
-                width: 308px;
-                height: 161px;
+                width: 568px;
+                height: 201px;
+            }
+
+            &--six {
+                width: 568px;
+                height: 201px;
             }
         }
     }
