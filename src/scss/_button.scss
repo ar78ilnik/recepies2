@@ -10,26 +10,29 @@
     &_music {
         display: inline-block;
         font-size: 75%;
-        line-height: 1.3;
+        line-height: 26px;
         border: none;
-        border-radius: 25px;
+        border-radius: 31px;
         background-color: var(--brown);
-        font-size: 125%;
+        font-size: 150%;
         color: var(--white);
+        //padding: 16px 24px 16px 56px;
+        padding-top: 16px;
+        padding-right: 32px;
+        padding-bottom: 16px;
+        padding-left: 90px;
         position: relative;
-        padding: 16px 24px 16px 60px;
     }
-
     &_music:before {
         display: block;
         content: '';
-        width: 20px;
-        height: 20px;
         position: absolute;
-        top: 0;
-        left: 0;
+        width: 64px;
+        height: 48px;
+        top: 4px;
+        left: 12px;
         background-image: url(../img/sprite.svg#music);
-        background-repeat: no-repeat;
         background-size: cover;
+        background-repeat: no-repeat;
     }
 }
