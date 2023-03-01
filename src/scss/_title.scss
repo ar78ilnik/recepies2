@@ -56,7 +56,7 @@
             width: 165px;
             height: 85px;
             background-image: url(../img/sprite.svg#verde);
-            align-self: flex-start;
+            align-self: center;
         }
 
         &--footer {
@@ -101,6 +101,11 @@
 
             &--five {
                 width: 402px;
+                height: 142px;
+            }
+
+            &--seven {
+                width: 433px;
                 height: 142px;
             }
         }

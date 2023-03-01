@@ -44,6 +44,11 @@
         text-align: left;
         width: 100%;
     }
+
+    &_intro {
+        width: 100%;
+        text-align: left;
+    }
 }
 
 @media (min-width: 744px) {
@@ -107,6 +112,10 @@
             width: 90%;
             text-align: left;
         }
+
+        &_intro {
+            width: 100%;
+        }
     }
 }
 
@@ -131,6 +140,11 @@
         &_us {
             font-size: 108%;
             line-height: 1.6;
+        }
+
+        &_intro {
+            width: 70%;
+            text-align: center;
         }
     }
 }
