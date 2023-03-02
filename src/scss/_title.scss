@@ -59,6 +59,13 @@
             align-self: center;
         }
 
+        &--eight {
+            width: 194px;
+            height: 76px;
+            background-image: url(../img/sprite.svg#marron);
+            align-self: flex-start;
+        }
+
         &--footer {
             display: none;
         }
@@ -108,10 +115,22 @@
                 width: 433px;
                 height: 142px;
             }
+
+            &--eight {
+                width: 345px;
+                height: 121px;
+            }
         }
 
         &_h3 {
             font-size: 125%;
+
+            &--ingredients {
+                justify-self: center;
+                align-self: center;
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
         }
     }
 }
@@ -155,6 +174,17 @@
             &--six {
                 width: 568px;
                 height: 201px;
+            }
+
+            &--eight {
+                width: 500px;
+                height: 183px;
+            }
+        }
+
+        &_h3 {
+            &--feck {
+                margin-bottom: 30px;
             }
         }
     }

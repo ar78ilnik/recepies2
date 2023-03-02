@@ -1,4 +1,5 @@
 .icon {
+
     &-menu,
     .button_menu--open &-cross {
         display: block;
@@ -8,14 +9,35 @@
     .button_menu--open &-menu {
         display: none;
     }
+
     &_music {
         width: 24px;
         height: 24px;
     }
+
+    &_ingredients {
+        width: 32px;
+        height: 32px;
+    }
+
+    &_feck {
+        width: 117px;
+        height: 79px;
+    }
+
+    &_share {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 @media (min-width: 744px) {
-    .icon {}
+    .icon {
+        &_feck {
+            width: 237px;
+            height: 160px;
+        }
+    }
 }
 
 @media (min-width: 1728px) {

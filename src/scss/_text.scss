@@ -49,6 +49,11 @@
         width: 100%;
         text-align: left;
     }
+
+    &_feck {
+        width: 100%;
+        text-align: left;
+    }
 }
 
 @media (min-width: 744px) {
@@ -114,6 +119,10 @@
         }
 
         &_intro {
+            width: 100%;
+        }
+
+        &_feck {
             width: 100%;
         }
     }

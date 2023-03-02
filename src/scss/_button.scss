@@ -1,4 +1,7 @@
 .button {
+    font-weight: 700;
+    border: none;
+
     &_menu {
         display: block;
         width: 45px;
@@ -9,20 +12,22 @@
 
     &_music {
         display: inline-block;
+        max-width: 320px;
         font-size: 75%;
         line-height: 26px;
         border: none;
         border-radius: 31px;
         background-color: var(--brown);
-        font-size: 150%;
+        font-size: 130%;
         color: var(--white);
-        //padding: 16px 24px 16px 56px;
+        //padding: 16px 32px 16px 90px;
         padding-top: 16px;
         padding-right: 32px;
         padding-bottom: 16px;
         padding-left: 90px;
         position: relative;
     }
+
     &_music:before {
         display: block;
         content: '';
@@ -34,5 +39,48 @@
         background-image: url(../img/sprite.svg#music);
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    &_ingredients {
+        font-family: 'DMSans-Bold', sans-serif;
+        background-color: var(--white);
+        color: var(--text);
+        font-size: 90%;
+        width: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px;
+        border-radius: 35px;
+        align-self: center;
+    }
+
+    &_feck {
+        background-color: var(--sea);
+        color: var(--brown);
+        width: 190px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px;
+        border-radius: 35px;
+        align-self: center;
+    }
+}
+
+@media (min-width: 744px) {
+    .button {
+        &_ingredients {
+            grid-column: 3/4;
+            grid-row: 4/5;
+        }
+    }
+}
+
+@media (min-width: 1728px) {
+    .button {
+        &_music {
+            align-self: flex-end;
+        }
     }
 }

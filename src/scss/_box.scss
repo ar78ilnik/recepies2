@@ -103,6 +103,11 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        &_ingredients {
+            background-color: var(--table);
+            padding: 32px 16px;
+        }
     }
 
     &__img {
@@ -226,6 +231,16 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
+
+            &_ingredients {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 100px repeat(3, min-content);
+            }
+
+            &_feck {
+                gap: 24px;
+            }
         }
 
         &__img {
@@ -268,6 +283,11 @@
         &_intro {
             flex-direction: column-reverse;
             align-items: center;
+        }
+
+        &_ingredients {
+            display: flex;
+            justify-content: space-between;
         }
 
         &__item {
@@ -375,6 +395,15 @@
                 background-image: url(../img/sprite.svg#arrow3);
                 background-repeat: no-repeat;
                 background-size: cover;
+            }
+
+            &_ingredients {
+                flex-basis: 45%;
+            }
+
+            &_feck {
+                flex-basis: 45%;
+                gap: 40px;
             }
         }
 

@@ -1,1 +1,44 @@
-.ingredients {}
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    &__dose {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__select {
+        background-color: var(--select);
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    &__select option {
+        padding-top: 10px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 744px) {
+    .ingredients {
+        &__dose {
+            font-size: 125%;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        &__share {
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+    }
+}
