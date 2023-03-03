@@ -66,6 +66,20 @@
             align-self: flex-start;
         }
 
+        &--nine {
+            width: 313px;
+            height: 103px;
+            background-image: url(../img/sprite.svg#marron);
+            align-self: flex-end;
+        }
+
+        &--ten {
+            width: 220px;
+            height: 75px;
+            background-image: url(../img/sprite.svg#blue);
+            align-self: flex-end;
+        }
+
         &--footer {
             display: none;
         }

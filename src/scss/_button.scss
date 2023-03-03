@@ -58,7 +58,7 @@
     &_feck {
         background-color: var(--sea);
         color: var(--brown);
-        width: 190px;
+        width: 210px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -73,6 +73,10 @@
         &_ingredients {
             grid-column: 3/4;
             grid-row: 4/5;
+        }
+
+        &_feck {
+            align-self: flex-start;
         }
     }
 }

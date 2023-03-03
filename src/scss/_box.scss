@@ -108,6 +108,16 @@
             background-color: var(--table);
             padding: 32px 16px;
         }
+
+        &_steps {
+            gap: 5px;
+        }
+
+        &_comments {
+            display: grid;
+            grid-template-columns: 96px 1fr;
+            grid-template-rows: repeat(3, min-content);
+        }
     }
 
     &__img {
@@ -145,6 +155,10 @@
 
     &_questions {
         gap: 0;
+    }
+
+    &_steps {
+        gap: 50px;
     }
 }
 
@@ -290,6 +304,10 @@
             justify-content: space-between;
         }
 
+        &_steps {
+            flex-direction: column;
+        }
+
         &__item {
             flex-basis: 30%;
 
@@ -405,6 +423,13 @@
                 flex-basis: 45%;
                 gap: 40px;
             }
+
+            &_steps {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 70px min-content;
+                grid-column-gap: 80px;
+            }
         }
 
         &__img {
@@ -420,6 +445,13 @@
         &__mind {
             flex-basis: 50%;
             padding: 88px;
+        }
+
+        &__picture {
+            &_wrapper {
+                grid-column: 1/2;
+                grid-row: 1/3;
+            }
         }
     }
 }
