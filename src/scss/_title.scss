@@ -90,15 +90,11 @@
     }
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tc) {
     .title {
-        &_h1 {
-            font-size: 225%;
-        }
+        font-size: 225%;
 
         &_h2 {
-            font-size: 225%;
-
             &--one {
                 width: 510px;
                 height: 142px;
@@ -134,6 +130,11 @@
                 width: 345px;
                 height: 121px;
             }
+
+            &--ten {
+                width: 382px;
+                height: 135px;
+            }
         }
 
         &_h3 {
@@ -149,7 +150,7 @@
     }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pc) {
     .title {
         &_h1 {
             width: 850px;
@@ -193,6 +194,11 @@
             &--eight {
                 width: 500px;
                 height: 183px;
+            }
+
+            &--ten {
+                width: 561px;
+                height: 194px;
             }
         }
 

@@ -1,0 +1,11 @@
+@use '_vars';
+
+@mixin adaptiv-fonts($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $addMobSize: $addSize + $addSize * 0.7;
+    font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / 1440px));
+
+    @media (min-width: $tc) {
+        font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$tc}));
+    }
+}

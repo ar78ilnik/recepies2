@@ -116,7 +116,10 @@
         &_comments {
             display: grid;
             grid-template-columns: 96px 1fr;
-            grid-template-rows: repeat(3, min-content);
+            grid-template-rows: repeat(2, min-content);
+            gap: 0;
+            border-bottom: 1px solid var(--text);
+            padding-bottom: 16px;
         }
     }
 
@@ -305,6 +308,10 @@
         }
 
         &_steps {
+            flex-direction: column;
+        }
+
+        &_comments {
             flex-direction: column;
         }
 

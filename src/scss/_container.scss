@@ -1,12 +1,11 @@
 .container {
-    width: 90%;
+    width: $mc;
     margin: 0 auto;
 
     &_header,
     &_main,
     &_footer {
-        width: 87%;
-        margin: 0 auto;
+        width: $mc;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -21,8 +20,10 @@
 
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tc) {
     .container {
+        width: $tc;
+
         &_footer {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -31,7 +32,7 @@
     }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pc) {
     .container {
         width: 1326px;
 

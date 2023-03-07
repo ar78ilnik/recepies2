@@ -73,7 +73,7 @@
 
     &_review {
         grid-column: 1/3;
-        grid-row: 3/4;
+        grid-row: 2/3;
         text-align: left;
     }
 }
@@ -145,6 +145,10 @@
         &_steps {
             width: 100%;
         }
+
+        &_review {
+            width: 100%;
+        }
     }
 }
 
@@ -185,6 +189,14 @@
         &_steps {
             grid-column: 2/3;
             grid-row: 2/3;
+        }
+
+        &_author {
+            text-align: left;
+        }
+
+        &_review {
+            grid-column: 2/3;
         }
     }
 }
