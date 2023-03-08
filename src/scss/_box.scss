@@ -165,7 +165,7 @@
     }
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tv) {
     .box {
         gap: 50px;
 
@@ -272,7 +272,7 @@
     }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pv) {
     .box {
         flex-direction: initial;
 

@@ -20,7 +20,7 @@
 
 }
 
-@media (min-width: $tc) {
+@media (min-width: $tv) {
     .container {
         width: $tc;
 
@@ -32,9 +32,9 @@
     }
 }
 
-@media (min-width: $pc) {
+@media (min-width: $pv) {
     .container {
-        width: 1326px;
+        width: $pc;
 
         &_main {
             margin-bottom: 9em;

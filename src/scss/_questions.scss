@@ -40,7 +40,7 @@
     }
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tv) {
     .questions {
         grid-template-columns: 2fr, 1fr;
         grid-template-rows: 234px min-content;
@@ -55,7 +55,7 @@
     }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pv) {
     .questions {
         &__label {
             flex-basis: 40%;

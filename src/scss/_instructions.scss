@@ -4,7 +4,7 @@
 	gap: 40px;
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tv) {
 	.instructions {
 		gap: 100px;
 	}

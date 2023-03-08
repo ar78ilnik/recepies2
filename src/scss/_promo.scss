@@ -5,7 +5,7 @@
     gap: 12px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $pv) {
     .promo {
         margin-top: 120px;
         align-items: flex-start;

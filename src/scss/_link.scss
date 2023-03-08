@@ -26,7 +26,7 @@
     }
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tv) {
     .link {
         grid-column: 2/3;
         grid-row: 1/2;
@@ -35,10 +35,13 @@
         &_comments {
             align-self: flex-end;
         }
-    }
+            &_questions {
+                align-self: center;
+            }
+        }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pv) {
     .link {
         align-items: flex-start;
         width: 160px;

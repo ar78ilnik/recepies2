@@ -1,6 +1,6 @@
 .footer {}
 
-@media (min-width: 744px) {
+@media (min-width: $tv) {
 	.footer {
 		&__partners,
 		&__social {
@@ -9,7 +9,7 @@
 	}
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pv) {
 	.footer {
 		&__nav {
 			justify-self: start;

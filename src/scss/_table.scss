@@ -27,7 +27,7 @@
     text-align: right;
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tv) {
     .table {
         font-size: 125%;
         grid-column: 1/4;

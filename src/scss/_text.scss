@@ -78,7 +78,7 @@
     }
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tv) {
     .text {
         font-size: 125%;
         width: 60%;
@@ -152,7 +152,7 @@
     }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pv) {
     .text {
         width: 90%;
 

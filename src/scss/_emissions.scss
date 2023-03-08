@@ -4,7 +4,7 @@
 	gap: 40px;
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pv) {
 	.emissions {
 		gap: 50px;
 	}

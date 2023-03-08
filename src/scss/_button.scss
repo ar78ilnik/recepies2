@@ -1,6 +1,15 @@
 .button {
+    font-family: 'DMSans-Bold', sans-serif;
+    font-size: 75%;
+    line-height: 26px;
     font-weight: 700;
     border: none;
+    border-radius: 31px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 90px;
+    position: relative;
 
     &_menu {
         display: block;
@@ -13,19 +22,8 @@
     &_music {
         display: inline-block;
         max-width: 320px;
-        font-size: 75%;
-        line-height: 26px;
-        border: none;
-        border-radius: 31px;
         background-color: var(--brown);
-        font-size: 130%;
         color: var(--white);
-        //padding: 16px 32px 16px 90px;
-        padding-top: 16px;
-        padding-right: 32px;
-        padding-bottom: 16px;
-        padding-left: 90px;
-        position: relative;
     }
 
     &_music:before {
@@ -42,16 +40,12 @@
     }
 
     &_ingredients {
-        font-family: 'DMSans-Bold', sans-serif;
         background-color: var(--white);
         color: var(--text);
-        font-size: 90%;
-        width: 220px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 16px;
-        border-radius: 35px;
         align-self: center;
     }
 
@@ -68,7 +62,7 @@
     }
 }
 
-@media (min-width: 744px) {
+@media (min-width: $tv) {
     .button {
         &_ingredients {
             grid-column: 3/4;
@@ -81,7 +75,7 @@
     }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: $pv) {
     .button {
         &_music {
             align-self: flex-end;

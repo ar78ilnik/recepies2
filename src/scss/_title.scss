@@ -1,6 +1,9 @@
 .title {
     text-transform: uppercase;
     font-weight: 700;
+    &_h1 {
+        text-align: center;
+    }
 
     &_h2 {
         display: flex;
@@ -90,7 +93,7 @@
     }
 }
 
-@media (min-width: $tc) {
+@media (min-width: $tv) {
     .title {
         font-size: 225%;
 
@@ -150,7 +153,7 @@
     }
 }
 
-@media (min-width: $pc) {
+@media (min-width: $pv) {
     .title {
         &_h1 {
             width: 850px;
