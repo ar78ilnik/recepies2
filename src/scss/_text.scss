@@ -3,7 +3,13 @@
     width: 80%;
     text-align: center;
 
-    &_recepies {
+    &_recepies,
+    &_authors,
+    &_intro,
+    &_feck,
+    &_steps,
+    &_mind,
+    &_us {
         text-align: left;
         width: 100%;
     }
@@ -32,27 +38,6 @@
         height: 0;
         transition: all .4s;
         margin-bottom: 16px;
-        text-align: left;
-    }
-
-    &_us {
-        text-align: left;
-        width: 100%;
-    }
-
-    &_mind {
-        text-align: left;
-        width: 100%;
-    }
-
-    &_intro {
-        width: 100%;
-        text-align: left;
-    }
-
-    &_feck,
-    &_steps {
-        width: 100%;
         text-align: left;
     }
 
@@ -90,10 +75,6 @@
 
         &_inst {
             font-size: 125%;
-        }
-
-        &_recepies {
-            width: 100%;
         }
 
         &_emissions {
@@ -142,10 +123,8 @@
 
         &_intro,
         &_feck,
-        &_steps {
-            width: 100%;
-        }
-
+        &_steps,
+        &_recepies,
         &_review {
             width: 100%;
         }

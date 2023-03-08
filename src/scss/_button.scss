@@ -1,14 +1,12 @@
 .button {
     font-family: 'DMSans-Bold', sans-serif;
-    font-size: 75%;
+    display: inline-block;
+    font-size: 88%;
     line-height: 26px;
     font-weight: 700;
     border: none;
     border-radius: 31px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 90px;
+    padding: 1em 2em 1em 5em;
     position: relative;
 
     &_menu {
@@ -20,8 +18,6 @@
     }
 
     &_music {
-        display: inline-block;
-        max-width: 320px;
         background-color: var(--brown);
         color: var(--white);
     }
@@ -33,40 +29,62 @@
         width: 64px;
         height: 48px;
         top: 4px;
-        left: 12px;
+        left: 0;
         background-image: url(../img/sprite.svg#music);
         background-size: cover;
         background-repeat: no-repeat;
     }
-
     &_ingredients {
         background-color: var(--white);
         color: var(--text);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 16px;
-        align-self: center;
+    }
+
+    &_ingredients:before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 64px;
+        height: 48px;
+        top: 4px;
+        left: 0;
+        background-image: url(../img/sprite.svg#cart);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     &_feck {
         background-color: var(--sea);
         color: var(--brown);
-        width: 210px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 16px;
-        border-radius: 35px;
-        align-self: center;
+    }
+
+    &_feck:before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 64px;
+        height: 48px;
+        top: 4px;
+        left: 0;
+        background-image: url(../img/sprite.svg#share);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
 @media (min-width: $tv) {
     .button {
+        font-size: 125%;
         &_ingredients {
-            grid-column: 3/4;
+            grid-column: 2/4;
             grid-row: 4/5;
+            justify-self: end;
+        }
+
+        &_music:before,
+        &_ingredients:before,
+        &_feck {
+            top: 12px;
+            left: 12px;
         }
 
         &_feck {
