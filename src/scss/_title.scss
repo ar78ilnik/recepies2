@@ -1,6 +1,7 @@
 .title {
     text-transform: uppercase;
     font-weight: 700;
+
     &_h1 {
         text-align: center;
     }
@@ -139,6 +140,11 @@
                 height: 121px;
             }
 
+            &--nine {
+                width: 556px;
+                height: 165px;
+            }
+
             &--ten {
                 width: 382px;
                 height: 135px;
@@ -204,15 +210,15 @@
                 height: 183px;
             }
 
+            &--nine {
+                width: 542px;
+                height: 246px;
+                text-align: center;
+            }
+
             &--ten {
                 width: 561px;
                 height: 194px;
-            }
-        }
-
-        &_h3 {
-            &--feck {
-                margin-bottom: 30px;
             }
         }
     }
