@@ -10,11 +10,6 @@
         display: none;
     }
 
-    &_music {
-        width: 24px;
-        height: 24px;
-    }
-
     &_ingredients {
         width: 32px;
         height: 32px;
@@ -29,9 +24,15 @@
         width: 16px;
         height: 16px;
     }
+
     &_footer {
         width: 20px;
         height: 20px;
+    }
+
+    &__button {
+        width: 24px;
+        height: 24px;
     }
 }
 

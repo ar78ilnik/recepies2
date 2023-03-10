@@ -1,13 +1,15 @@
 .button {
     font-family: 'DMSans-Bold', sans-serif;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     font-size: 88%;
     line-height: 26px;
     font-weight: 700;
     border: none;
     border-radius: 31px;
-    padding: 1em 2em 1em 5em;
-    position: relative;
+    padding: 1em 2em;
 
     &_menu {
         display: block;
@@ -22,58 +24,23 @@
         color: var(--white);
     }
 
-    &_music:before {
-        display: block;
-        content: '';
-        position: absolute;
-        width: 64px;
-        height: 48px;
-        top: 4px;
-        left: 0;
-        background-image: url(../img/sprite.svg#music);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
     &_ingredients {
         background-color: var(--white);
         color: var(--text);
-    }
-
-    &_ingredients:before {
-        display: block;
-        content: '';
-        position: absolute;
-        width: 64px;
-        height: 48px;
-        top: 4px;
-        left: 0;
-        background-image: url(../img/sprite.svg#cart);
-        background-size: cover;
-        background-repeat: no-repeat;
+        align-self: center;
     }
 
     &_feck {
         background-color: var(--sea);
         color: var(--brown);
-    }
-
-    &_feck:before {
-        display: block;
-        content: '';
-        position: absolute;
-        width: 64px;
-        height: 48px;
-        top: 4px;
-        left: 0;
-        background-image: url(../img/sprite.svg#share);
-        background-size: cover;
-        background-repeat: no-repeat;
+        align-self: center;
     }
 }
 
 @media (min-width: $tv) {
     .button {
         font-size: 125%;
+
         &_ingredients {
             grid-column: 2/4;
             grid-row: 4/5;
