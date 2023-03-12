@@ -54,6 +54,11 @@
         text-transform: uppercase;
         font-weight: 700;
         font-size: 76%;
+        text-align: initial;
+    }
+
+    &_mind {
+        color: var(--white);
     }
 
     &_review {
@@ -90,20 +95,7 @@
             height: 140px;
             background-image: url(../img/ellipse-tablet.png);
             background-repeat: no-repeat;
-            top: -15px;
-            left: 0;
-            z-index: -1;
-        }
-
-        &_emissions::before {
-            display: block;
-            content: '';
-            position: absolute;
-            width: 196px;
-            height: 140px;
-            background-image: url(../img/ellipse-tablet.png);
-            background-repeat: no-repeat;
-            top: -90px;
+            top: -40px;
             left: 0;
             z-index: -1;
         }

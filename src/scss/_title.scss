@@ -14,74 +14,20 @@
         background-position: 50% 50%;
         background-size: cover;
         font-size: 125%;
+        width: 210px;
+        height: 85px;
+        text-align: center;
 
-        &--one {
-            width: 258px;
-            height: 85px;
+        &--verde {
             background-image: url(../img/sprite.svg#verde);
-            align-self: center;
         }
 
-        &--two {
-            width: 172px;
-            height: 76px;
-            background-image: url(../img/sprite.svg#marron);
-            align-self: flex-start;
-        }
-
-        &--three {
-            width: 280px;
-            height: 85px;
-            background-image: url(../img/sprite.svg#verde);
-            align-self: flex-end;
-        }
-
-        &--four {
-            grid-column: 1/2;
-            grid-row: 1/2;
+        &--marron {
             background-image: url(../img/sprite.svg#marron);
         }
 
-        &--five {
-            width: 238px;
-            height: 76px;
-            background-image: url(../img/sprite.svg#marron);
-            align-self: flex-start;
-        }
-
-        &--six {
-            width: 249px;
-            height: 86px;
-            background-image: url(../img/sprite.svg#marron);
-            align-self: flex-end;
-        }
-
-        &--seven {
-            width: 165px;
-            height: 85px;
-            background-image: url(../img/sprite.svg#verde);
-            align-self: center;
-        }
-
-        &--eight {
-            width: 194px;
-            height: 76px;
-            background-image: url(../img/sprite.svg#marron);
-            align-self: flex-start;
-        }
-
-        &--nine {
-            width: 313px;
-            height: 103px;
-            background-image: url(../img/sprite.svg#marron);
-            align-self: flex-end;
-        }
-
-        &--ten {
-            width: 220px;
-            height: 75px;
+        &--blue {
             background-image: url(../img/sprite.svg#blue);
-            align-self: flex-end;
         }
 
         &--footer {
@@ -91,6 +37,12 @@
 
     &_h3 {
         font-size: 87.5%;
+        &--ingredients {
+            align-self: center;
+        }
+        &-mind {
+            color: var(--white);
+        }
     }
 }
 
@@ -99,55 +51,11 @@
         font-size: 225%;
 
         &_h2 {
-            &--one {
-                width: 510px;
-                height: 142px;
-            }
-
-            &--two {
-                width: 345px;
-                height: 143px;
-            }
-
-            &--three {
-                width: 495px;
-                height: 175px;
-            }
-
+            width: 560px;
+            height: 232px;
             &--four {
-                height: 180px;
                 grid-column: 1/2;
                 grid-row: 1/2;
-            }
-
-            &--five {
-                width: 402px;
-                height: 142px;
-            }
-
-            &--six {
-                width: 546px;
-                height: 186px;
-            }
-
-            &--seven {
-                width: 433px;
-                height: 142px;
-            }
-
-            &--eight {
-                width: 345px;
-                height: 121px;
-            }
-
-            &--nine {
-                width: 556px;
-                height: 165px;
-            }
-
-            &--ten {
-                width: 382px;
-                height: 135px;
             }
         }
 
@@ -174,52 +82,6 @@
 
         &_h2 {
             font-size: 350%;
-
-            &--one {
-                width: 554px;
-                height: 180px;
-                text-align: center;
-            }
-
-            &--two {
-                width: 529px;
-                height: 171px;
-            }
-
-            &--three {
-                width: 817px;
-                height: 217px;
-            }
-
-            &--four {
-                width: 430px;
-            }
-
-            &--five {
-                width: 568px;
-                height: 201px;
-            }
-
-            &--six {
-                width: 568px;
-                height: 201px;
-            }
-
-            &--eight {
-                width: 500px;
-                height: 183px;
-            }
-
-            &--nine {
-                width: 542px;
-                height: 246px;
-                text-align: center;
-            }
-
-            &--ten {
-                width: 561px;
-                height: 194px;
-            }
         }
     }
 }

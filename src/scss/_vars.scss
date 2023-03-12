@@ -16,21 +16,21 @@ img {
 
 /* Viewport Sizes*/
 
-/* Mobile Viewport*/
-$mv: 375px;
-/*Tablet Viewport*/
-$tv: 744px;
-/*PC Viewport*/
-$pv: 1728px;
+/* Mobile Viewport 375*/
+$mv: 320px;
+/*Tablet Viewport 768*/
+$tv: 768px;
+/*PC Viewport 1728*/
+$pv: 1200px;
 
 /* Container Sizes */
 
 /* Mobile Container*/
-$mc: calc($mv - (22px * 2));
+$mc: 88%;
 /* Tablet Container*/
-$tc: calc($tv - (32px * 2));
+$tc: 91%;
 /* Pc Container*/
-$pc: calc($pv - (144px * 2));
+$pc: 70%;
 
 /* Colors */
 :root {

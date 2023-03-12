@@ -1,6 +1,8 @@
 .questions {
     display: grid;
-    grid-template-rows: 200px repeat(2, min-content);
+    //grid-template-rows: 200px repeat(2, min-content);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
 
     &__input {
         display: none;
