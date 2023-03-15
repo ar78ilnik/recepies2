@@ -10,6 +10,11 @@
     align-items: center;
     justify-content: space-between;
 
+    &_header {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
     &_questions {
         width: auto;
         justify-self: end;
@@ -35,10 +40,11 @@
         &_comments {
             align-self: flex-end;
         }
-            &_questions {
-                align-self: center;
-            }
+
+        &_questions {
+            align-self: center;
         }
+    }
 }
 
 @media (min-width: $pv) {

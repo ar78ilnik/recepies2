@@ -3,6 +3,11 @@
     width: 80%;
     text-align: center;
 
+    &_header {
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
     &_recepies,
     &_authors,
     &_intro,

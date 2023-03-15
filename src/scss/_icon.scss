@@ -1,4 +1,7 @@
 .icon {
+    &_menu {
+        stroke: var(--text);
+    }
 
     &-menu,
     .button_menu--open &-cross {

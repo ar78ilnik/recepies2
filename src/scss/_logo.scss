@@ -1,4 +1,7 @@
 .logo {
     width: 45px;
     height: 45px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: start;
 }

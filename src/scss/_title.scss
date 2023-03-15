@@ -4,6 +4,9 @@
 
     &_h1 {
         text-align: center;
+        grid-column: 1/4;
+        grid-row: 2/3;
+        font-size: 150%;
     }
 
     &_h2 {
@@ -37,9 +40,11 @@
 
     &_h3 {
         font-size: 87.5%;
+
         &--ingredients {
             align-self: center;
         }
+
         &-mind {
             color: var(--white);
         }
@@ -53,6 +58,7 @@
         &_h2 {
             width: 560px;
             height: 232px;
+
             &--four {
                 grid-column: 1/2;
                 grid-row: 1/2;

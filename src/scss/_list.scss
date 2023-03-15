@@ -1,5 +1,12 @@
 .list {
-    display: none;
+    &_header {
+        display: none;
+    }
+
+    &_header--open {
+        display: block;
+    }
+
     &_footer {
         display: block;
         margin-top: 1.42em;
