@@ -1,4 +1,9 @@
 .icon {
+    &_logo {
+        width: 70px;
+        height: 80px;
+    }
+
     &_menu {
         stroke: var(--text);
     }

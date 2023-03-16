@@ -1,7 +1,14 @@
 .logo {
-    width: 45px;
-    height: 45px;
     grid-column: 1/2;
     grid-row: 1/2;
     justify-self: start;
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: 400;
+    color: var(--brown);
+
+    &__spanish {
+        font-family: 'PlayfairDisplay-Bold', sans-serif;
+        font-weight: 700;
+        color: var(--text);
+    }
 }
