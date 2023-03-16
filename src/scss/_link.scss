@@ -11,8 +11,15 @@
     justify-content: space-between;
 
     &_header {
-        grid-column: 2/3;
+        grid-column: 1/4;
         grid-row: 4/5;
+        width: 150px;
+    }
+
+    &_menu {
+        display: block;
+        width: 100%;
+        line-height: 3;
     }
 
     &_questions {
