@@ -1,12 +1,9 @@
 .logo {
-    grid-column: 1/3;
-    grid-row: 1/2;
-    justify-self: start;
+    display: flex;
+    align-items: center;
     font-family: 'Raleway-Regular', sans-serif;
     font-weight: 400;
     color: var(--brown);
-    display: flex;
-    align-items: center;
 
     &__spanish {
         font-family: 'PlayfairDisplay-Bold', sans-serif;

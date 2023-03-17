@@ -4,8 +4,6 @@
 
     &_h1 {
         text-align: center;
-        grid-column: 1/4;
-        grid-row: 2/3;
         font-size: 150%;
     }
 
@@ -53,7 +51,10 @@
 
 @media (min-width: $tv) {
     .title {
-        font-size: 225%;
+
+        &_h1 {
+            font-size: 300%;
+        }
 
         &_h2 {
             width: 560px;
@@ -81,8 +82,7 @@
 @media (min-width: $pv) {
     .title {
         &_h1 {
-            width: 850px;
-            font-size: 350%;
+            font-size: 240%;
             text-align: left;
         }
 

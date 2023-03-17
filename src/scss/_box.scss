@@ -129,14 +129,9 @@
         height: 156px;
     }
 
-    &__info {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
-
     &__picture {
-        width: 100%;
+        width: 391px;
+        float: left;
     }
 
     &__mind {
@@ -355,13 +350,6 @@
 
             &_questions {
                 flex-direction: row;
-            }
-
-            &_us {
-                flex-basis: 100%;
-                flex-direction: inherit;
-                align-items: flex-start;
-                gap: 88px;
             }
 
             &_values {

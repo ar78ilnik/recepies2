@@ -69,6 +69,10 @@
 
 @media (min-width: $pv) {
     .button {
+        &_menu {
+            display: none;
+        }
+
         &_music {
             align-self: flex-end;
         }

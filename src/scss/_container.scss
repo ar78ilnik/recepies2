@@ -3,13 +3,10 @@
     margin: 0 auto;
 
     &_header {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 75px repeat(3, min-content);
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-items: center;
-        padding-top: 25px;
-        grid-row-gap: 20px;
+        padding-top: 15px;
     }
 
     &_main,

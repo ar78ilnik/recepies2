@@ -11,15 +11,19 @@
     justify-content: space-between;
 
     &_header {
-        grid-column: 1/4;
-        grid-row: 4/5;
-        width: 150px;
+        width: 130px;
     }
 
     &_menu {
         display: block;
         width: 100%;
         line-height: 3;
+        font-size: 100%;
+        font-weight: 400;
+    }
+
+    &_menu:hover {
+        color: var(--brown);
     }
 
     &_questions {
@@ -40,9 +44,6 @@
 
 @media (min-width: $tv) {
     .link {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        align-self: start;
 
         &_comments {
             align-self: flex-end;
@@ -58,6 +59,10 @@
     .link {
         align-items: flex-start;
         width: 160px;
+
+        &_menu {
+            text-align: end;
+        }
 
         &_questions {
             width: 210px;

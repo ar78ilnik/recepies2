@@ -1,0 +1,19 @@
+.promo {
+    background-color: var(--green-header);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    min-height: 480px;
+    background-image: url(../img/pan-mobile@1x.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+@media (min-width: $tv) {
+    .promo {
+        background-image: url(../img/pan-tablet@1x.png);
+        min-height: 750px;
+    }
+}
