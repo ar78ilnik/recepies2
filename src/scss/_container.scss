@@ -8,7 +8,13 @@
         align-items: center;
         padding-top: 15px;
     }
-
+    &_promo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
     &_main,
     &_footer {
         width: $mc;
@@ -29,7 +35,9 @@
 @media (min-width: $tv) {
     .container {
         width: $tc;
-
+        &_promo {
+            widows: $tc;
+        }
         &_footer {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -44,6 +52,9 @@
 
         &_main {
             margin-bottom: 9em;
+        }
+        &_promo {
+            align-items: flex-start;
         }
 
         &_footer {
