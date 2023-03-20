@@ -11,6 +11,7 @@
         right: 0;
         background-color: var(--green-header);
         min-height: 100vh;
+        z-index: 2;
     }
 }
 
@@ -18,9 +19,7 @@
     .nav {
         &_header {
             display: block;
-            grid-column: 2/4;
-            grid-row: 1/2;
-            justify-self: end;
+            flex-basis: 40%;
         }
     }
 }
