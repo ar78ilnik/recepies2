@@ -1,26 +1,30 @@
 .footer {}
 
 @media (min-width: $tv) {
-	.footer {
-		&__partners,
-		&__social {
-			justify-self: end;
-		}
-	}
+    .footer {
+
+        &__partners,
+        &__social {
+            justify-self: end;
+        }
+    }
 }
 
 @media (min-width: $pv) {
-	.footer {
-		&__nav {
-			justify-self: start;
-		}
-		&__partners,
-		&__delivery
-		 {
-			justify-self: center;
-		}
-		&__social {
-			justify-self: end;
-		}
-	}
+    .footer {
+        &__partners {
+            position: relative;
+        }
+
+        &__partners::before {
+            display: block;
+            position: absolute;
+            width: 249px;
+            height: 132px;
+            top: 0;
+            right: 0;
+            background-image: url(../img/sprite.svg#arrow1footer);
+            background-repeat: no-repeat;
+        }
+    }
 }

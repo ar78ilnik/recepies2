@@ -1,11 +1,13 @@
 .instructions {
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
 }
 
 @media (min-width: $tv) {
-	.instructions {
-		gap: 100px;
-	}
+    .instructions {
+        gap: 100px;
+    }
 }

@@ -1,5 +1,9 @@
 .search {
-    &__text-input {}
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 2em;
 
     &__input {
         display: none;
@@ -46,5 +50,24 @@
 
     &__input:checked ~ .search__fieldset {
         height: auto;
+    }
+}
+
+@media (min-width: $tv) {
+    .search {
+        &__label {
+            font-size: 150%;
+        }
+
+        &__paragraph {
+            margin-bottom: 2em;
+        }
+    }
+}
+
+@media (min-width: $pv) {
+    .search {
+        order: 1;
+        width: 30%;
     }
 }

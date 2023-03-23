@@ -37,7 +37,6 @@
         overflow: hidden;
         height: 0;
         transition: all .4s;
-        margin-bottom: 16px;
         text-align: left;
     }
 
@@ -102,7 +101,6 @@
 
         &_questions {
             font-size: 125%;
-            margin-bottom: 24px;
             width: 80%;
         }
 
@@ -138,8 +136,9 @@
         }
 
         &_questions {
-            width: 40%;
+            flex-basis: 50%;
         }
+
 
         &_us {
             font-size: 108%;

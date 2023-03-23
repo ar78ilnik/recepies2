@@ -1,7 +1,6 @@
 .form {
     &__wrapper {
         margin-top: 30px;
-        margin-bottom: 30px;
     }
 
     &__input-text {
@@ -10,5 +9,14 @@
         padding: 16px;
         border-radius: 35px;
         color: var(--search);
+    }
+}
+
+@media (min-width: $tv) {
+    .form {
+        &__input-text {
+            padding: 24px;
+            font-size: 150%;
+        }
     }
 }

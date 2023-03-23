@@ -51,6 +51,7 @@
             border-top: 1px solid var(--text);
             align-items: flex-start;
             gap: 0;
+            margin-bottom: 10px;
         }
 
         &_values {
@@ -345,16 +346,10 @@
 
             &_recepies {
                 flex-direction: row;
-                align-items: flex-start;
-                justify-content: space-between;
             }
 
             &_recepies picture {
                 flex-basis: 50%;
-            }
-
-            &_questions {
-                flex-direction: row;
             }
 
             &_values {
@@ -416,6 +411,10 @@
                 background-image: url(../img/sprite.svg#arrow3);
                 background-repeat: no-repeat;
                 background-size: cover;
+            }
+
+            &_questions {
+                flex-direction: row;
             }
 
             &_ingredients {
