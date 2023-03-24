@@ -36,6 +36,8 @@
     }
 
     &_footer {
+        display: block;
+        width: 100%;
         line-height: 1.4;
         font-weight: 400;
         margin-bottom: 1.14em;
@@ -51,6 +53,10 @@
 
         &_questions {
             align-self: center;
+        }
+
+        &_footer {
+            font-size: 125%;
         }
     }
 }

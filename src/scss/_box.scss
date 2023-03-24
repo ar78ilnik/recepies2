@@ -153,8 +153,15 @@
         color: var(--us-text-white);
 
         &_green {
-            color: var(--text);
             background-color: var(--green);
+        }
+
+        &_green .text_mind {
+            color: var(--text);
+        }
+
+        &_green .title_h3-mind {
+            color: var(--text);
         }
     }
 

@@ -19,6 +19,26 @@
         line-height: 210%;
     }
 
+    &__paragraph {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    &__paragraph input {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid var(--brown);
+        background-color: var(--sea);
+        position: relative;
+    }
+
+    &__paragraph input:checked {
+        background: radial-gradient(var(--sea) 50%, var(--white) 50%);
+    }
+
     &__fieldset {
         width: 80%;
         overflow: hidden;
