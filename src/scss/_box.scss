@@ -49,9 +49,6 @@
         &_questions {
             transform: translateZ(0);
             border-top: 1px solid var(--text);
-            align-items: flex-start;
-            gap: 0;
-            margin-bottom: 10px;
         }
 
         &_values {
@@ -421,7 +418,7 @@
             }
 
             &_questions {
-                flex-direction: row;
+                flex-direction: column;
             }
 
             &_ingredients {

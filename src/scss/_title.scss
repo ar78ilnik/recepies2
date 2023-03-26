@@ -4,33 +4,10 @@
 
     &_h1 {
         text-align: center;
-        font-size: 150%;
     }
 
     &_h2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: cover;
         font-size: 125%;
-        width: 210px;
-        height: 85px;
-        text-align: center;
-
-        &--verde {
-            background-image: url(../img/sprite.svg#verde);
-        }
-
-        &--marron {
-            background-image: url(../img/sprite.svg#marron);
-        }
-
-        &--blue {
-            background-image: url(../img/sprite.svg#blue);
-        }
-
         &--footer {
             display: none;
         }
@@ -57,9 +34,6 @@
         }
 
         &_h2 {
-            width: 271px;
-            height: 125px;
-
             &--four {
                 grid-column: 1/2;
                 grid-row: 1/2;
@@ -87,8 +61,6 @@
         }
 
         &_h2 {
-            width: 650px;
-            height: 234px;
             font-size: 350%;
         }
     }

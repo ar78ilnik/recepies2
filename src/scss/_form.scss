@@ -20,3 +20,11 @@
         }
     }
 }
+
+@media (min-width: $pv) {
+    .form {
+        &__input-text {
+            padding: 16px;
+        }
+    }
+}

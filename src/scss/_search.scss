@@ -21,8 +21,13 @@
 
     &__paragraph {
         display: flex;
+        align-items: center;
         gap: 10px;
         margin-bottom: 20px;
+    }
+
+    &__paragraph:nth-last-child(-n+1) {
+        margin-bottom: 0;
     }
 
     &__paragraph input {
@@ -31,7 +36,6 @@
         height: 20px;
         border-radius: 50%;
         border: 1px solid var(--brown);
-        background-color: var(--sea);
         position: relative;
     }
 
@@ -40,11 +44,10 @@
     }
 
     &__fieldset {
-        width: 80%;
+        width: 100%;
         overflow: hidden;
         height: 0;
         transition: all .4s;
-        margin-bottom: 16px;
         text-align: left;
         border: none;
     }
@@ -81,6 +84,7 @@
 
         &__paragraph {
             margin-bottom: 2em;
+            font-size: 125%;
         }
     }
 }
