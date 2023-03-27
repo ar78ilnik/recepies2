@@ -46,7 +46,8 @@
             background-repeat: no-repeat;
         }
 
-        &_questions {
+        &_questions,
+        &_form {
             transform: translateZ(0);
             border-top: 1px solid var(--text);
         }
@@ -418,7 +419,7 @@
             }
 
             &_questions {
-                flex-direction: column;
+                flex-direction: row;
             }
 
             &_ingredients {
@@ -428,6 +429,10 @@
             &_feck {
                 flex-basis: 45%;
                 gap: 40px;
+            }
+
+            &_search {
+                width: 100%;
             }
 
             &_steps {

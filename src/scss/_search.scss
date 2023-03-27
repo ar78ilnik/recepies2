@@ -92,6 +92,6 @@
 @media (min-width: $pv) {
     .search {
         order: 1;
-        width: 30%;
+        flex-basis: 35%;
     }
 }

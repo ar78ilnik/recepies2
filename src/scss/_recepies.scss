@@ -14,6 +14,9 @@
 
 @media (min-width: $pv) {
     .recepies {
+        &-search {
+            flex-basis: 45%;
+        }
 
         &__info {
             flex-basis: 50%;
