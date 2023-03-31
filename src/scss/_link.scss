@@ -4,15 +4,11 @@
     line-height: 1.125;
     color: var(--text);
     text-decoration: none;
-    font-size: 87.5%;
-    width: 135px;
+    font-size: 125%;
+    width: 180px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    &_header {
-        width: 150px;
-    }
 
     &_menu {
         display: block;
@@ -64,7 +60,6 @@
 @media (min-width: $pv) {
     .link {
         align-items: flex-start;
-        width: 160px;
 
         &_menu {
             text-align: end;
