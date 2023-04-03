@@ -1,5 +1,6 @@
 .questions {
     display: grid;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     gap: 20px;
 
@@ -44,7 +45,7 @@
 @media (min-width: $tv) {
     .questions {
         grid-template-columns: 2fr, 1fr;
-        grid-template-rows: 234px min-content;
+        grid-template-rows: repeat(2, auto);
 
         &__label {
             font-size: 150%;
