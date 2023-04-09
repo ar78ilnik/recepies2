@@ -30,7 +30,7 @@
             left: -200px;
             width: 453px;
             height: 453px;
-            background-image: url(../img/sprite.svg#arrow1);
+            background-image: url("../img/sprite.svg#arrow1");
             background-repeat: no-repeat;
         }
 
@@ -42,7 +42,7 @@
             right: -220px;
             width: 490px;
             height: 490px;
-            background-image: url(../img/sprite.svg#arrow2);
+            background-image: url("../img/sprite.svg#arrow2");
             background-repeat: no-repeat;
         }
 
@@ -73,7 +73,7 @@
             left: -160px;
             width: 253px;
             height: 253px;
-            background-image: url(../img/sprite.svg#arrow1);
+            background-image: url("../img/sprite.svg#arrow1");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -86,7 +86,7 @@
             right: 30px;
             width: 277px;
             height: 289px;
-            background-image: url(../img/sprite.svg#arrow2);
+            background-image: url("../img/sprite.svg#arrow2");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -99,7 +99,7 @@
             right: 0;
             width: 277px;
             height: 289px;
-            background-image: url(../img/sprite.svg#arrow2);
+            background-image: url("../img/sprite.svg#arrow2");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -199,7 +199,7 @@
                 left: -260px;
                 width: 700px;
                 height: 700px;
-                background-image: url(../img/sprite.svg#arrow1);
+                background-image: url("../img/sprite.svg#arrow1");
             }
 
             &_arrow::after {
@@ -210,7 +210,7 @@
                 right: -260px;
                 width: 700px;
                 height: 700px;
-                background-image: url(../img/sprite.svg#arrow2);
+                background-image: url("../img/sprite.svg#arrow2");
             }
 
             &_practice:nth-child(2),
@@ -226,7 +226,7 @@
                 left: -230px;
                 width: 400px;
                 height: 400px;
-                background-image: url(../img/sprite.svg#arrow1);
+                background-image: url("../img/sprite.svg#arrow1");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -239,7 +239,7 @@
                 right: 30px;
                 width: 400px;
                 height: 400px;
-                background-image: url(../img/sprite.svg#arrow2);
+                background-image: url("../img/sprite.svg#arrow2");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -252,7 +252,7 @@
                 right: 0;
                 width: 400px;
                 height: 400px;
-                background-image: url(../img/sprite.svg#arrow2);
+                background-image: url("../img/sprite.svg#arrow2");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -335,7 +335,7 @@
                 left: -170px;
                 width: 230px;
                 height: 120px;
-                background-image: url(../img/sprite.svg#arrow3);
+                background-image: url("../img/sprite.svg#arrow3");
             }
 
             &_arrow::after {
@@ -346,7 +346,7 @@
                 right: -160px;
                 width: 200px;
                 height: 200px;
-                background-image: url(../img/sprite.svg#arrow4);
+                background-image: url("../img/sprite.svg#arrow4");
             }
 
             &_recepies {
@@ -387,7 +387,7 @@
                 left: -90px;
                 width: 142px;
                 height: 80px;
-                background-image: url(../img/sprite.svg#arrow3);
+                background-image: url("../img/sprite.svg#arrow3");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -400,7 +400,7 @@
                 right: -120px;
                 width: 142px;
                 height: 80px;
-                background-image: url(../img/sprite.svg#arrow4);
+                background-image: url("../img/sprite.svg#arrow4");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -413,7 +413,7 @@
                 left: -90px;
                 width: 142px;
                 height: 80px;
-                background-image: url(../img/sprite.svg#arrow3);
+                background-image: url("../img/sprite.svg#arrow3");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
