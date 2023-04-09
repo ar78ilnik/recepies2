@@ -1,0 +1,11 @@
+.author-recepie {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 24px;
+	border-top: 1px solid var(--brown);
+	border-bottom: 1px solid var(--brown);
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
