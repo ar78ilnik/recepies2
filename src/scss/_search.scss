@@ -39,7 +39,8 @@
     }
 
     &__paragraph input:checked {
-        background: radial-gradient(var(--sea) 50%, var(--white) 50%);
+        background: radial-gradient(var(--brown) 50%, var(--white) 50%);
+        //background: radial-gradient(red 50%, blue 50%);
     }
 
     &__fieldset {

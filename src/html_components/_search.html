@@ -1,34 +1,38 @@
 <section class="search">
     <div class="form__wrapper">
-        <form class="form" action="script.php" role="search">
-            <input class="form__input-text" type="search" placeholder="Найти рецепт">
-        </form>
+        <form class="form form_search" role="search" method="get" id="searchform" action="' . home_url( '/' ) . '">
+            <label class="form__label_search" for="s">Запрос для поиска:</label>
+            <input class="form__input-text" type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="Найти рецепт"/>
+            <input class="button button_search" type="submit" id="searchsubmit" value="e8b6" />
+        </form>'
     </div>
     <div class="search__tags">
         <div class="box box_questions">
             <div class="box__item box__item_form">
                 <input id="toggle1" class="search__input" type="radio" name="toggle">
                 <label class="search__label" for="toggle1">По категориям</label>
-                <fieldset class="search__fieldset">
-                    <p class="search__paragraph">
-                        <input type="radio" id="one" name="drone" value="huey">
-                        <label for="one">Завтраки</label>
-                    </p>
-                    <p class="search__paragraph">
-                        <input type="radio" id="two" name="drone" value="huey">
-                        <label for="two">Первые блюда</label>
-                    </p>
-                    <p class="search__paragraph">
-                        <input type="radio" id="tree" name="drone" value="huey">
-                        <label for="tree">Вторые блюда</label>
-                    </p>
-                    <p class="search__paragraph">
-                        <input type="radio" id="four" name="drone" value="huey">
-                        <label for="four">Десерты</label>
-                    </p>
-                </fieldset>
+                <form action="script.php">
+                    <fieldset class="search__fieldset">
+                        <p class="search__paragraph">
+                            <input type="radio" id="one" name="drone" value="huey">
+                            <label for="one">Завтраки</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="two" name="drone" value="huey">
+                            <label for="two">Первые блюда</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="tree" name="drone" value="huey">
+                            <label for="tree">Вторые блюда</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="four" name="drone" value="huey">
+                            <label for="four">Десерты</label>
+                        </p>
+                    </fieldset>
+                    <input class="button button_submit" type="submit" value="Найти рецепты" />
+                </form>
             </div>
         </div>
     </div>
-    <input class="button button_submit" type="submit" value="Найти рецепты" />
 </section>
