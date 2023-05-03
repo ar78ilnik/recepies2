@@ -1,9 +1,12 @@
 <section class="intro">
     <div class="box box_intro">
-        <picture>
+        <picture class="box__picture box__picture_wrapper">
+            <source srcset="img/advice1-pc@1x.webp" type="image/webp" media="(min-width: 1200px)">
             <source srcset="img/advice1-pc@1x.jpg" media="(min-width: 1200px)">
+            <source srcset="img/advice1-tablet@1x.webp" type="image/webp" media="(min-width: 768px)">
             <source srcset="img/advice1-tablet@1x.jpg" media="(min-width: 768px)">
-            <img class="box__picture" src="img/advice1-mobile@1x.jpg" alt="">
+            <source srcset="img/advice1-mobile@1x.webp" type="image/webp">
+            <img class="box__picture box__picture_steps" src="img/advice1-mobile@1x.jpg" alt="">
         </picture>
         <p class="text text_intro">Воскресенье - это день, когда семьи обираются дома или идут в бар, обедают и проводят вместе время чтобы поделится новостями, увидеть как растут дети, племянники, внуки. Если собираются дома, часто делают паэлью или рис с разными ингредиентами, зависит от вкуса и региона где проживают. Как описано в моем посте, рецептов паэльи очень много</p>
     </div>
