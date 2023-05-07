@@ -26,10 +26,6 @@
         margin-bottom: 20px;
     }
 
-    &__paragraph:nth-last-child(-n+1) {
-        margin-bottom: 0;
-    }
-
     &__paragraph input {
         display: block;
         width: 20px;
@@ -66,12 +62,12 @@
         transition: 0.4s transform;
     }
 
-    &__input:checked ~ &__label:after {
+    &__input:checked ~ &__label::after {
         transform: rotate(45deg);
         top: 16px;
     }
 
-    &__input:checked ~ .search__fieldset {
+    &__input:checked ~ &__form > &__fieldset {
         height: auto;
     }
 }

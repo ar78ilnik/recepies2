@@ -4,14 +4,14 @@
             <label class="form__label_search" for="s">Запрос для поиска:</label>
             <input class="form__input-text" type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="Найти рецепт"/>
             <input class="button button_search" type="submit" id="searchsubmit" value="e8b6" />
-        </form>'
+        </form>
     </div>
     <div class="search__tags">
         <div class="box box_questions">
             <div class="box__item box__item_form">
                 <input id="toggle1" class="search__input" type="radio" name="toggle">
                 <label class="search__label" for="toggle1">По категориям</label>
-                <form action="script.php">
+                <form class="search__form" action="script.php">
                     <fieldset class="search__fieldset">
                         <p class="search__paragraph">
                             <input type="radio" id="one" name="drone" value="huey">
@@ -30,9 +30,57 @@
                             <label for="four">Десерты</label>
                         </p>
                     </fieldset>
-                    <input class="button button_submit" type="submit" value="Найти рецепты" />
                 </form>
             </div>
+            <div class="box__item box__item_form">
+                <input id="toggle2" class="search__input" type="radio" name="toggle">
+                <label class="search__label" for="toggle2">По рубрикам</label>
+                <form class="search__form" action="script.php">
+                    <fieldset class="search__fieldset">
+                        <p class="search__paragraph">
+                            <input type="radio" id="one" name="drone" value="huey">
+                            <label for="one">Завтраки</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="two" name="drone" value="huey">
+                            <label for="two">Первые блюда</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="tree" name="drone" value="huey">
+                            <label for="tree">Вторые блюда</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="four" name="drone" value="huey">
+                            <label for="four">Десерты</label>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="box__item box__item_form">
+                <input id="toggle3" class="search__input" type="radio" name="toggle">
+                <label class="search__label" for="toggle3">По меткам</label>
+                <form class="search__form" action="script.php">
+                    <fieldset class="search__fieldset">
+                        <p class="search__paragraph">
+                            <input type="radio" id="one" name="drone" value="huey">
+                            <label for="one">Завтраки</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="two" name="drone" value="huey">
+                            <label for="two">Первые блюда</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="tree" name="drone" value="huey">
+                            <label for="tree">Вторые блюда</label>
+                        </p>
+                        <p class="search__paragraph">
+                            <input type="radio" id="four" name="drone" value="huey">
+                            <label for="four">Десерты</label>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <input class="button button_submit" type="submit" value="Найти рецепты" />
         </div>
     </div>
 </section>

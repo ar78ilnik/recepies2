@@ -1,5 +1,4 @@
 export const func = () => {
-    console.log('1');
     const header = document.querySelector('.header');
     const buttonMenu = header.querySelector('.button_menu');
     const listHeader = header.querySelector('.list_header');
