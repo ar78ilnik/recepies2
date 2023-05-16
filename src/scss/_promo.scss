@@ -1,7 +1,7 @@
 .promo {
     background-color: var(--green-header);
     min-height: 520px;
-    background-image: url("../img/pan-mobile@1x.png");
+    background-image: url("../img/pan-mobile@1x.webp");
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-top: 20px;
@@ -10,7 +10,7 @@
 
 @media (min-width: $tv) {
     .promo {
-        background-image: url("../img/pan-tablet@1x.png");
+        background-image: url("../img/pan-tablet@1x.webp");
         min-height: 800px;
     }
 }
