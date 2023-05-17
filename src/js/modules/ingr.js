@@ -1,4 +1,4 @@
-export const func = () => {
+export const ingr = () => {
     let options = document.querySelectorAll('.cal');
     let optval = [];
     let i = 0;

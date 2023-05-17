@@ -2,9 +2,11 @@ import {
     func
 } from "./modules/script.js";
 import {
-    forms
+    form
 } from "./modules/form.js";
-import {ingridients} from "./modules/ingridients.js";
+import {
+    ingr
+} from "./modules/ingr.js";
 func();
 forms();
-ingridients();
+ingr();
