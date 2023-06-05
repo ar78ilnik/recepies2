@@ -1,0 +1,63 @@
+<section class="comment">
+    <h2 class="title title_h2">комментарии</h2>
+    <ul class="box box_comment">
+        <li class="box__item box__item_comment">
+            <picture class="box__picture box__picture_wrapper">
+                <img class="" src="img/user1@1x.jpg" alt="" width="72" height="72">
+            </picture>
+            <span class="text text_author">кристина александрова</span>
+            <p class="text text_review">Очень вкусно и сытно получается! Спасибо за рецепт</p>
+        </li>
+        <li class="box__item box__item_comment">
+            <picture class="box__picture box__picture_wrapper">
+                <img class="" src="img/user1@1x.jpg" alt="" width="72" height="72">
+            </picture>
+            <span class="text text_author">кристина александрова</span>
+            <p class="text text_review">Очень вкусно и сытно получается! Спасибо за рецепт</p>
+        </li>
+        <li class="box__item box__item_comment">
+            <picture class="box__picture box__picture_wrapper">
+                <img class="" src="img/user1@1x.jpg" alt="" width="72" height="72">
+            </picture>
+            <span class="text text_author">кристина александрова</span>
+            <p class="text text_review">Очень вкусно и сытно получается! Спасибо за рецепт</p>
+        </li>
+        <a href="#" class="link link_comment">показать все (25)</a>
+    </ul>
+    <div class="comment-respond">
+        <h3 class="title title_h3">Добавить комментарии</h3>
+        <form action="script.php" class="comment-form">
+            <p class="comment-notes">
+                <span>Ваш адрес email не будет опубликован.</span>
+                <span>Обязательные поля помечены<span>*</span></span>
+            </p>
+            <div class="form-group">
+                <label for="author" class="form-label">
+                    Имя <span class="required">*</span>
+                </label>
+                <input type="text" id="author" class="form-input" name="author" required="required">
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">
+                    Электронная почта <span class="required">*</span>
+                </label>
+                <input type="email" id="email" class="form-input" size="30">
+            </div>
+            <div class="form-group">
+                <label for="comment" class="form-label">
+                    Комментарий <span class="required">*</span>
+                </label>
+                <textarea name="comment" id="comment" cols="45" rows="10" class="form-input"></textarea>
+            </div>
+            <div class="form-group form-group_check">
+                <input id="comment-cookies" type="checkbox" class="form-input" value="yes" checked>
+                <label for="comment-cookies" class="form-label">
+                    Сохранить моё имя, email и адрес сайта в этом браузере для последующих моих комментариев.
+                </label>
+            </div>
+            <div class="form-submit">
+                <input class="button button_submit" type="submit" name="submit" value="Отправить комментарий">
+            </div>
+        </form>
+    </div>
+</section>

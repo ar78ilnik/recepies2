@@ -113,10 +113,10 @@
             gap: 5px;
         }
 
-        &_comments {
+        &_comment {
             display: grid;
             grid-template-columns: 96px 1fr;
-            grid-template-rows: repeat(2, min-content);
+            grid-template-rows: repeat(3, min-content);
             grid-column-gap: 20px;
             border-bottom: 1px solid var(--text);
             padding-bottom: 16px;
@@ -131,6 +131,11 @@
     &__picture {
         width: 100%;
         height: auto;
+        &_wrapper {
+            grid-column: 1/2;
+            grid-row: 1/3;
+            border-radius: 50%;
+        }
     }
 
     &__info {
@@ -320,8 +325,9 @@
             gap: 20px;
         }
 
-        &_comments {
+        &_comment {
             flex-direction: column;
+            margin-top: 40px;
         }
 
         &__item {

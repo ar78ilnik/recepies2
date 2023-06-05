@@ -1,0 +1,24 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    &-respond {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (min-width: $pv) {
+    .comment {
+        &-form {
+            width: 50%;
+        }
+    }
+}
