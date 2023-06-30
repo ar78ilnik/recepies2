@@ -1,16 +1,18 @@
 .social {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 106px;
-	&__item {
-		width: 48px;
-		height: 48px;
-		border-radius: 50%;
-		border: 2px solid var(--brown);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 10px;
-	}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 106px;
+    margin-top: 1.42em;
+
+    &__item {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 2px solid var(--brown);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 }

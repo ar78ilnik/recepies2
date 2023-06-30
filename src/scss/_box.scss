@@ -131,6 +131,8 @@
     &__picture {
         width: 100%;
         height: auto;
+        border-radius: 10px;
+
         &_wrapper {
             grid-column: 1/2;
             grid-row: 1/3;

@@ -10,6 +10,17 @@
     justify-content: flex-start;
     gap: 10px;
 
+    &_header {
+        background-color: var(--brown);
+        color: var(--white);
+        font-family: 'Raleway-Regular', sans-serif;
+        line-height: 2.8;
+        border-radius: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: 400;
+    }
+
     &_menu {
         display: block;
         width: 100%;
