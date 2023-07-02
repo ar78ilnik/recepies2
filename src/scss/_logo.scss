@@ -12,3 +12,11 @@
         font-size: 150%;
     }
 }
+
+@media (min-width: $tv) {
+    .logo {
+        &_footer {
+            margin-right: 63px;
+        }
+    }
+}

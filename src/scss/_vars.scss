@@ -20,12 +20,14 @@ input[type="radio"] {
 
 /* Viewport Sizes*/
 
-/* Mobile Viewport 375*/
-$mv: 320px;
-/*Tablet Viewport 768*/
+/* Mobile viewport 375px */
+$mv: 375px;
+/* Tablet viewport 768px */
 $tv: 768px;
-/*PC Viewport 1728*/
+/* PC viewport 1200px*/
 $pv: 1200px;
+/* Extra large viewport 1728px*/
+$extra: 1500px;
 
 /* Container Sizes */
 
