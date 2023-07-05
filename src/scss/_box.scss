@@ -131,7 +131,8 @@
     &__picture {
         width: 100%;
         height: auto;
-        border-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
 
         &_wrapper {
             grid-column: 1/2;
@@ -156,6 +157,8 @@
         padding-left: 16px;
         background-color: var(--brown);
         color: var(--us-text-white);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
 
         &_green {
             background-color: var(--green);
