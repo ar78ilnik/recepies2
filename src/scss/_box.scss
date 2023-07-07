@@ -192,13 +192,17 @@
             gap: 0;
         }
 
+        &__info {
+            margin-top: 24px;
+        }
+
         &__item {
             &_inst {
                 gap: 24px;
             }
 
             &_recepies {
-                gap: 0;
+                gap: 24px;
                 justify-content: space-between;
             }
 

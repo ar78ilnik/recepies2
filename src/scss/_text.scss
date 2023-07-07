@@ -1,5 +1,6 @@
 .text {
     font-size: 87.5%;
+    font-weight: 400;
     width: 80%;
     text-align: center;
 
@@ -33,6 +34,11 @@
         top: -15px;
         left: -10%;
         z-index: -1;
+    }
+
+    &_recepies {
+        font-size: 0.875rem;
+        line-height: 1.35;
     }
 
     &_questions {
@@ -88,6 +94,10 @@
         &_emissions {
             font-size: 150%;
             width: 370px;
+        }
+
+        &_recepies {
+            font-size: 1.25rem;
         }
 
         &_emissions::before {
