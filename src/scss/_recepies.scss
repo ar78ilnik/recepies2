@@ -18,6 +18,11 @@
 
 @media (min-width: $pv) {
     .recepies {
+
+        &__picture {
+            width: 770px;
+            height: 473px;
+        }
         &-search {
             flex-basis: 65%;
         }
