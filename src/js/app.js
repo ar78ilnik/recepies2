@@ -8,5 +8,5 @@ import {
     ingr
 } from "./modules/ingr.js";
 func();
-forms();
+form();
 ingr();

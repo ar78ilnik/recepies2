@@ -9,10 +9,6 @@
         }
     }
 
-    &__wrapper {
-        margin-top: 30px;
-    }
-
     &__label_search {
         display: none;
         font-size: 0;
@@ -39,10 +35,6 @@
 
 @media (min-width: $pv) {
     .form {
-        &__wrapper {
-            margin-top: 0;
-        }
-
         &__input-text {
             padding: 16px;
         }

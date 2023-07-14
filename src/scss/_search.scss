@@ -1,4 +1,5 @@
 .search {
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -87,6 +88,7 @@
 
 @media (min-width: $pv) {
     .search {
+        margin-top: 0;
         order: 1;
         flex-basis: 35%;
     }

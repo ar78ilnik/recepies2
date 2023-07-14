@@ -11,7 +11,7 @@
     &__select {
         background-color: var(--select);
         border: none;
-        width: 50px;
+        width: 140px;
         height: 50px;
         border-radius: 15px;
         padding: 15px;
@@ -23,13 +23,18 @@
 
     &__info {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
+        gap: 15%;
         align-items: center;
     }
 }
 
 @media (min-width: $tv) {
     .ingredients {
+        &__select {
+            width: 180px;
+        }
+
         &__dose {
             font-size: 125%;
             grid-column: 1/2;

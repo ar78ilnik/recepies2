@@ -27,6 +27,10 @@
         padding: 1em 2em;
     }
 
+    &_feck {
+        padding-left: 0;
+    }
+
 
     &_music {
         background-color: var(--brown);
@@ -47,10 +51,9 @@
 
     &_submit {
         display: block;
-        width: 100%;    
+        width: 100%;
         padding-top: 16px;
         padding-bottom: 16px;
-        margin-top: 20px;
         border-radius: 25px;
         color: var(--white);
         background-color: var(--brown);

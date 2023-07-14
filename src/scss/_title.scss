@@ -23,6 +23,10 @@
             align-self: center;
         }
 
+        &--feck {
+            margin-bottom: -10px;
+        }
+
         &-mind {
             color: var(--white);
         }
@@ -55,6 +59,10 @@
                 align-self: center;
                 grid-column: 1/4;
                 grid-row: 1/2;
+            }
+
+            &--feck {
+                margin-bottom: -20px;
             }
 
             &-recepies {
