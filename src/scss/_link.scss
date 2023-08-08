@@ -78,6 +78,10 @@
     .link {
         align-items: flex-start;
 
+        &_header {
+            align-items: center;
+        }
+
         &_menu {
             text-align: end;
             width: 100%;

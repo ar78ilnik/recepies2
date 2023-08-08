@@ -25,12 +25,8 @@
         font-weight: 700;
         border-radius: 31px;
         padding: 1em 2em;
+        cursor: pointer;
     }
-
-    &_feck {
-        padding-left: 0;
-    }
-
 
     &_music {
         background-color: var(--brown);
@@ -44,8 +40,8 @@
     }
 
     &_feck {
-        background-color: var(--sea);
-        color: var(--brown);
+        background-color: var(--brown);
+        color: var(--brown-darkest);
         align-self: center;
     }
 
