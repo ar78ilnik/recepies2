@@ -1,8 +1,10 @@
 export const form = () => {
-    let search = document.querySelector('.search');
+    let form = document.querySelector('.form'),
+        buttonSubmit = form.querySelector('.button_submit');
 
-    search.addEventListener('submit', (event) => {
-        let data = new FormData(search);
+    buttonSubmit.addEventListener('submit', (event) => {
+        event.preventDefault();
+        let data = new FormData(form);
         console.log(data);
         let output = "";
         for (const entry of data) {

@@ -1,0 +1,42 @@
+<section class="search">
+	<form class="form" role="search" method="get" action="script.php">
+		<fieldset class="form__fieldset" name="categories">
+			<legend class="form__legend">ПО КАТЕГОРИЯМ</legend>
+			<div class="form__wrapper">
+				<p class="form__paragraph">
+					<input type="radio" id="breakfast" name="category" value="breakfast">
+					<label for="breakfast">Завтраки</label>
+				</p>
+				<p class="form__paragraph">
+					<input type="radio" id="first" name="category" value="first">
+					<label for="first">Первые блюда</label>
+				</p>
+				<p class="form__paragraph">
+					<input type="radio" id="second" name="category" value="second">
+					<label for="second">Вторые блюда</label>
+				</p>
+			</div>
+		</fieldset>
+		<fieldset class="form__fieldset" name="tags">
+			<legend class="form__legend">ПО МЕТКАМ</legend>
+			<p class="form__paragraph">
+				<input type="radio" id="spain" name="mark" value="spain">
+				<label for="spain">Испанская кухня</label>
+			</p>
+			<p class="form__paragraph">
+				<input type="radio" id="ecology" name="mark" value="ecology">
+				<label for="ecology">Первые блюда</label>
+			</p>
+			<p class="form__paragraph">
+				<input type="radio" id="dessert" name="mark" value="dessert">
+				<label for="dessert">Десерты</label>
+			</p>
+		</fieldset>
+		<fieldset class="form__fieldset" name="search">
+			<label class="form__label_search" for="s">Запрос для поиска:</label>
+			<input class="form__input-text" type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="Найти рецепт" />
+			<input class="button button_search" type="submit" id="searchsubmit" value="e8b6" />
+		</fieldset>
+		<button class="button button_submit" type="submit">Найти рецепты</button>
+	</form>
+</section>
