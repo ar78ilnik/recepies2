@@ -3,7 +3,6 @@ export const form = () => {
         buttonSubmit = form.querySelector('.button_submit');
 
     buttonSubmit.addEventListener('submit', (event) => {
-        event.preventDefault();
         let data = new FormData(form);
         console.log(data);
         let output = "";

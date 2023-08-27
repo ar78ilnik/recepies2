@@ -1,5 +1,5 @@
 .text {
-    font-size: 87.5%;
+    font-size: 100%;
     font-weight: 400;
     width: 80%;
     text-align: center;
@@ -16,11 +16,16 @@
 
     &_promo {
         width: 90%;
+        font-size: 110%;
     }
 
     &_emissions {
         text-align: initial;
         position: relative;
+    }
+
+    &_instructions {
+        font-size: 100%;
     }
 
     &_emissions::before {
@@ -37,7 +42,6 @@
     }
 
     &_recepies {
-        font-size: 0.875rem;
         line-height: 1.35;
     }
 

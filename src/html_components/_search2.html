@@ -1,5 +1,10 @@
 <section class="search">
 	<form class="form" role="search" method="get" action="script.php">
+		<fieldset class="form__fieldset" name="search">
+			<label class="form__label_search" for="s">Запрос для поиска:</label>
+			<input class="form__input-text" type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="Найти рецепт" />
+			<input class="button button_search" type="submit" id="searchsubmit" value="e8b6" />
+		</fieldset>
 		<fieldset class="form__fieldset" name="categories">
 			<legend class="form__legend">ПО КАТЕГОРИЯМ</legend>
 			<div class="form__wrapper">
@@ -32,11 +37,6 @@
 				<label for="dessert">Десерты</label>
 			</p>
 		</fieldset>
-		<fieldset class="form__fieldset" name="search">
-			<label class="form__label_search" for="s">Запрос для поиска:</label>
-			<input class="form__input-text" type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="Найти рецепт" />
-			<input class="button button_search" type="submit" id="searchsubmit" value="e8b6" />
-		</fieldset>
-		<button class="button button_submit" type="submit">Найти рецепты</button>
+		<input class="button button_submit" type="submit" id="searchsubmit" value="Найти рецепты">
 	</form>
 </section>
