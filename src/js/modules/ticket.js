@@ -6,5 +6,5 @@ export const ticket = () => {
     	return res
 	}, {});
 
-//document.getElementById("pre").textContent = JSON.stringify(j, null, 2);
+document.getElementById("pre").textContent = JSON.stringify(j, null, 2);
 }
