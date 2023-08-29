@@ -98,6 +98,10 @@
             font-size: 80%;
         }
 
+        &_menu:hover {
+            color: var(--brown-darkest);
+        }
+
         &_questions {
             width: 210px;
             font-size: 125%;

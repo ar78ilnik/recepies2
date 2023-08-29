@@ -76,8 +76,22 @@
 @media (min-width: $pv) {
     .title {
         &_h1 {
+            width: 60%;
             font-size: 350%;
             text-align: left;
+            position: relative;
+        }
+
+        &_h1::after {
+            display: block;
+            content: '';
+            width: 147px;
+            height: 185px;
+            background-image: url(../img/carrot.webp);
+            position: absolute;
+            top: -60px;
+            right: -30px;
+            transform: rotate(0deg);
         }
 
         &_h2 {

@@ -20,4 +20,16 @@
         background-position: top 0 right 15%;
         min-height: 500px;
     }
+
+    .promo::before {
+        display: block;
+        content: '';
+        width: 191px;
+        height: 145px;
+        background-image: url(../img/basil.webp);
+        position: absolute;
+        top: 460px;
+        left: 0;
+        transform: rotate(0deg);
+    }
 }
