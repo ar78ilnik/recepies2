@@ -9,12 +9,22 @@
         padding-top: 15px;
     }
 
-    &_promo {
+    &_promo,
+    &_writer {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         gap: 20px;
+    }
+
+    &_writer {
+        padding-top: 40px;
+        gap: 40px;
+    }
+
+    &_news {
+        padding-top: 2em;
     }
 
     &_search {

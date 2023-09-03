@@ -52,7 +52,11 @@
         padding-bottom: 16px;
         border-radius: 25px;
         color: var(--white);
-        background-color: var(--brown);
+        background-color: var(--brown-darkest);
+        &-news {
+            width: 67%;
+            align-self: center;
+        }
     }
 
     &_search {
@@ -61,8 +65,8 @@
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 17px;
-        right: 10px;
+        top: 11px;
+        right: 4px;
         border-radius: 50%;
         background-color: transparent;
         background-image: url(../img/sprite.svg#search);
@@ -91,6 +95,10 @@
         &_feck {
             align-self: flex-start;
         }
+
+        &_search {
+            top: 17px;
+        }
     }
 }
 
@@ -98,6 +106,13 @@
     .button {
         &_menu {
             display: none;
+        }
+
+        &_submit-news {
+            width: 20%;
+            font-size: 120%;
+            padding-top: 18px;
+            padding-bottom: 18px;
         }
 
         &_music {

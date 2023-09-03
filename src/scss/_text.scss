@@ -9,9 +9,22 @@
     &_intro,
     &_feck,
     &_steps,
-    &_us {
+    &_us,
+    &_news {
         text-align: left;
         width: 100%;
+    }
+
+    &_news {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    &_date {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        font-size: 90%;
+        text-align: left;
     }
 
     &_promo {
@@ -79,6 +92,11 @@
         grid-row: 2/3;
         text-align: left;
     }
+
+    &_writer {
+        width: 100%;
+        text-align: start;
+    }
 }
 
 @media (min-width: $tv) {
@@ -134,7 +152,9 @@
         &_feck,
         &_steps,
         &_recepies,
-        &_review {
+        &_review,
+        &_writer,
+        &_news {
             width: 100%;
         }
     }
@@ -157,7 +177,10 @@
         &_questions {
             flex-basis: 50%;
         }
-
+        
+        &_news {
+            font-size: 100%;
+        }
 
         &_us {
             font-size: 108%;

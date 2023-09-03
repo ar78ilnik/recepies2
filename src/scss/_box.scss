@@ -128,7 +128,8 @@
         height: 156px;
     }
 
-    &__picture {
+    &__picture,
+    &__writer {
         width: 100%;
         height: 100%;
         border-top-left-radius: 10px;
@@ -141,7 +142,15 @@
         }
     }
 
-    &__info {
+    &__info-news {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, min-content);
+        grid-row-gap: 1em;
+    }
+
+    &__info,
+    &__writer {
         display: flex;
         flex-direction: column;
         gap: 24px;
@@ -175,12 +184,21 @@
         }
     }
 
+    &_writer {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     &_questions {
         gap: 0;
     }
 
     &_steps {
         gap: 50px;
+    }
+
+    &_news {
+
     }
 }
 
@@ -310,6 +328,13 @@
             justify-content: space-between;
         }
 
+        &_writer {
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, min-content);
+        }
+
         &_questions {
             flex-direction: column;
         }
@@ -325,6 +350,10 @@
         &_intro {
             flex-direction: column-reverse;
             align-items: center;
+        }
+
+        &_news {
+            flex-direction: column;
         }
 
         &_ingredients {
@@ -475,6 +504,9 @@
 
         &__info {
             flex-basis: 45%;
+            &-news {
+                flex-basis: 70%;
+            }
         }
 
         &__mind {
@@ -507,6 +539,15 @@
                 grid-column: 1/2;
                 grid-row: 1/3;
             }
+
+            &-news {
+                height: 280px;
+            }
+        }
+
+        &__writer {
+            grid-column: 2/3;
+            grid-row: 1/2;
         }
     }
 }

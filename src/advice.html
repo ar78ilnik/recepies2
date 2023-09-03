@@ -3,9 +3,9 @@
 })
 <body class="body">
     @@include('html_components/_header.html')
-    <main class="main">
+    <main class="main" itemscope itemtype="http://schema.org/Recipe">
         <div class="container container_main">
-            <h1 class="title title_h1">паэлья</h1>
+            <h1 class="title title_h1" itemprop="name">паэлья</h1>
             @@include('html_components/_intro.html')
             @@include('html_components/_author-recepie.html')
             @@include('html_components/_practice.html')

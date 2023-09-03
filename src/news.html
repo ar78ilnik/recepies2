@@ -4,7 +4,14 @@
 <body class="body">
     @@include('html_components/_header.html')
     <main class="main">
-        <div class="container container_main">
+        <div class="container container_news">
+            <h1 class="title title_h1">Новости</h1>
+            @@include('html_components/_search-news.html')
+            <div class="box box_news">
+                @@include('html_components/_news-item.html')
+                @@include('html_components/_news-item.html')
+                @@include('html_components/_news-item.html')
+            </div>
         </div>
     </main>
     @@include('html_components/_footer.html')

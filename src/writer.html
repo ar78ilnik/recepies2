@@ -1,0 +1,28 @@
+@@include('html_components/_head.html', {
+"title": "Страница автора"
+})
+<body class="body">
+    @@include('html_components/_header.html')
+    <main class="main container_writer">
+        <h1 class="title title_h1">Александр Иванов</h1>
+        <article class="box box_writer">
+            <picture class="picture picture_writer">
+                <source srcset="img/about6-pc@1x.webp" media="(min-width: 1200px)">
+                <source srcset="img/about6-tablet@1x.webp" media="(min-width: 768px)">
+                <img src="img/about6-mobile@1x.webp" alt="">
+            </picture>
+            <div class="box__writer">
+                <p class="text text_writer">Меня зовут Александр, я много лет живу в Испании и работаю в семейном рестороне на берегу моря. Наше главное блюдо - Паэлья со свежайшими морепродуктами.  Я хочу поделиться с вами особенностями приготовления этого замечательного семейного блюда, ежеденевно объедяняющего за большим столом таких разных людей Испании</p>
+                <p class="text text_writer">Меня зовут Александр, я много лет живу в Испании и работаю в семейном рестороне на берегу моря. Наше главное блюдо - Паэлья со свежайшими морепродуктами.  Я хочу поделиться с вами особенностями приготовления этого замечательного семейного блюда, ежеденевно объедяняющего за большим столом таких разных людей Испании</p>
+                <p class="text text_writer">Меня зовут Александр, я много лет живу в Испании и работаю в семейном рестороне на берегу моря. Наше главное блюдо - Паэлья со свежайшими морепродуктами.  Я хочу поделиться с вами особенностями приготовления этого замечательного семейного блюда, ежеденевно объедяняющего за большим столом таких разных людей Испании</p>
+            </div>
+            <div class="writer writer__contacts">
+                <span class="writer__practise">Senior editor</span>
+                <span class="writer writer__number">Автор 15 статей</span>
+                <a class="link link_writer" href="mailto:alexanderivanov@gmail.com">alexanderivanov@gmail.com</a>
+            </div>
+        </article>
+    </main>
+    @@include('html_components/_footer.html')
+    <script src="js/app.min.js"></script>
+</body>

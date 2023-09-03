@@ -4,7 +4,11 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: stretch;
-        gap: 2em;
+        gap: 1em;
+        &_news {
+            padding-top: 2em;
+            margin-bottom: 2em;
+        }
     }
 
     &__input {
@@ -92,5 +96,11 @@
         margin-top: 0;
         order: 1;
         flex-basis: 35%;
+        &__form {
+            &_news {
+                width: 80%;
+                flex-direction: row;
+            }
+        }
     }
 }

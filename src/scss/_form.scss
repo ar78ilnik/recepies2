@@ -99,7 +99,7 @@
 @media (min-width: $tv) {
     .form {
         &__input-text {
-            padding: 24px;
+            padding: 15px;
             font-size: 150%;
         }
     }
@@ -109,6 +109,12 @@
     .form {
         &__input-text {
             padding: 16px;
+        }
+
+        &__fieldset {
+            &_news {
+                flex-basis: 60%;
+            }
         }
     }
 }

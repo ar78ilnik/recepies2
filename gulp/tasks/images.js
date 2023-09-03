@@ -8,7 +8,7 @@ export const images = () => {
             message: "Error: <%= error.message %>"
         })))
         .pipe(app.plugins.newer(app.path.build.images))
-        .pipe(webp())
+        .pipe(webp({quality: 60}))
         .pipe(app.gulp.dest(app.path.build.images))
         .pipe(app.gulp.src(app.path.src.images))
         .pipe(app.plugins.newer(app.path.build.images))

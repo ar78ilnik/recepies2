@@ -5,12 +5,12 @@
 
     &_h1 {
         text-align: center;
-        font-size: 120%;
+        font-size: 150%;
     }
 
     &_h2 {
-        font-size: 150%;
-        margin-bottom: 16px;
+        font-size: 100%;
+        grid-column: 1/4;
 
         &--footer {
             display: none;
@@ -82,7 +82,7 @@
             position: relative;
         }
 
-        &_h1::after {
+        &_h1--main::after {
             display: block;
             content: '';
             width: 147px;
@@ -95,7 +95,7 @@
         }
 
         &_h2 {
-            font-size: 350%;
+            font-size: 120%;
         }
     }
 }
