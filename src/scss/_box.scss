@@ -319,7 +319,14 @@
     .box {
         flex-direction: initial;
 
-        &_recepies {
+        &_recepies,
+        &_questions,
+        &_values,
+        &_news,
+        &_steps,
+        &_comment,
+        &_privacy
+         {
             flex-direction: column;
         }
 
@@ -335,14 +342,6 @@
             grid-template-rows: repeat(2, min-content);
         }
 
-        &_questions {
-            flex-direction: column;
-        }
-
-        &_values {
-            flex-direction: column;
-        }
-
         &_authors {
             justify-content: space-between;
         }
@@ -352,22 +351,16 @@
             align-items: center;
         }
 
-        &_news {
-            flex-direction: column;
-        }
-
         &_ingredients {
             display: flex;
             justify-content: space-between;
         }
 
         &_steps {
-            flex-direction: column;
             gap: 20px;
         }
 
         &_comment {
-            flex-direction: column;
             margin-top: 40px;
         }
 
