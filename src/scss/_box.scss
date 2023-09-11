@@ -39,9 +39,9 @@
             content: '';
             position: absolute;
             top: -220px;
-            right: -220px;
-            width: 490px;
-            height: 490px;
+            right: 0;
+            width: 47px;
+            height: 289px;
             background-image: url("../img/sprite.svg#arrow2");
             background-repeat: no-repeat;
         }
@@ -146,7 +146,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, min-content);
-        grid-row-gap: 1em;
+        grid-row-gap: 24px;
     }
 
     &__info,
@@ -166,7 +166,7 @@
         padding-top: 16px;
         padding-left: 16px;
         padding-bottom: 16px;
-        background-color: var(--brown);
+        background-color: var(--brown-darkest);
         color: var(--us-text-white);
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -195,10 +195,6 @@
 
     &_steps {
         gap: 50px;
-    }
-
-    &_news {
-
     }
 }
 

@@ -4,6 +4,11 @@
     gap: 20px;
     flex-wrap: wrap;
 
+    &_news {
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
     &__item {
         display: inline-block;
         line-height: 1.3;

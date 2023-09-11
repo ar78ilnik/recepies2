@@ -22,7 +22,7 @@
     &__legend {
         text-transform: uppercase;
         cursor: pointer;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 210%;
         position: relative;
         display: block;
@@ -48,6 +48,7 @@
         align-items: center;
         gap: 10px;
         margin-bottom: 20px;
+        font-size: 100%;
     }
 
     &__paragraph input {

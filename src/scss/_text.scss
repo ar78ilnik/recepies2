@@ -1,5 +1,5 @@
 .text {
-    font-size: 100%;
+    font-size: 120%;
     font-weight: 400;
     width: 80%;
     text-align: center;
@@ -23,23 +23,18 @@
 
     &_date {
         grid-column: 1/2;
-        grid-row: 3/4;
+        grid-row: 4/5;
         font-size: 90%;
         text-align: left;
     }
 
     &_promo {
         width: 90%;
-        font-size: 110%;
     }
 
     &_emissions {
         text-align: initial;
         position: relative;
-    }
-
-    &_instructions {
-        font-size: 100%;
     }
 
     &_emissions::before {
@@ -65,10 +60,6 @@
         height: 0;
         transition: all .4s;
         text-align: left;
-    }
-
-    &_steps {
-        font-size: 100%;
     }
 
     &_number {

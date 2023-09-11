@@ -5,11 +5,11 @@
 
     &_h1 {
         text-align: center;
-        font-size: 150%;
+        font-size: 180%;
     }
 
     &_h2 {
-        font-size: 100%;
+        font-size: 160%;
         grid-column: 1/4;
 
         &--footer {
@@ -18,7 +18,9 @@
     }
 
     &_h3 {
-        font-size: 130%;
+        font-size: 140%;
+        grid-column: 1/4;
+        grid-row: 1/2;
 
         &--ingredients {
             align-self: center;
