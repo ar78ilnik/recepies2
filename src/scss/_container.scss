@@ -25,6 +25,15 @@
 
     &_news {
         padding-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
+        gap: 1em;
+    }
+
+    &_search-news {
+        padding-top: 2em;
     }
 
     &_search {
@@ -84,6 +93,10 @@
             padding-top: 5%;
         }
 
+        &_news {
+            width: 83%;
+        }
+
         &_search {
             flex-direction: row;
             justify-content: space-between;
@@ -101,6 +114,7 @@
 
 @media (min-width: $extra) {
     .container {
+        width: $pc-extra;
         &_search {
             width: $pc-extra;
         }

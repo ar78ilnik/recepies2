@@ -82,6 +82,9 @@
             font-size: 350%;
             text-align: left;
             position: relative;
+            &--news {
+                width: 100%;
+            }
         }
 
         &_h1--main::after {
