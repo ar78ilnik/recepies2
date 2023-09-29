@@ -1,5 +1,5 @@
 .text {
-    font-size: 120%;
+    font-size: 100%;
     font-weight: 400;
     width: 80%;
     text-align: center;
@@ -53,7 +53,9 @@
     }
 
     &_recepies {
-        line-height: 1.35;
+        line-height: 1.5;
+        grid-column: 1/4;
+        grid-row: 2/3;
     }
 
     &_questions {
@@ -95,7 +97,6 @@
 
 @media (min-width: $tv) {
     .text {
-        font-size: 125%;
         width: 60%;
 
         &_news {
@@ -114,10 +115,6 @@
         &_emissions {
             font-size: 150%;
             width: 370px;
-        }
-
-        &_recepies {
-            font-size: 1.25rem;
         }
 
         &_date {

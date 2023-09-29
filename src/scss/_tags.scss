@@ -4,7 +4,9 @@
     gap: 20px;
     flex-wrap: wrap;
 
-    &_news {
+    &_news,
+    &_main,
+    &_search {
         grid-column: 1/4;
         grid-row: 3/4;
     }

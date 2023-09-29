@@ -142,14 +142,21 @@
         }
     }
 
-    &__info-news {
+    &__info-news,
+    &__info_search,
+    &__info_main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, min-content);
         grid-row-gap: 24px;
     }
 
-    &__info,
+    &__info_authors {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
     &__writer {
         display: flex;
         flex-direction: column;
@@ -218,7 +225,6 @@
             }
 
             &_recepies {
-                gap: 24px;
                 justify-content: space-between;
             }
 
@@ -315,7 +321,6 @@
     .box {
         flex-direction: initial;
 
-        &_recepies,
         &_questions,
         &_values,
         &_news,
@@ -323,6 +328,10 @@
         &_comment,
         &_privacy
          {
+            flex-direction: column;
+        }
+
+        &_recepies {
             flex-direction: column;
         }
 
@@ -386,11 +395,8 @@
             }
 
             &_recepies {
-                flex-direction: row;
-            }
-
-            &_recepies picture {
-                flex-basis: 50%;
+                flex-basis: 45%;
+                gap: 0;
             }
 
             &_values {
@@ -468,7 +474,7 @@
             }
 
             &_search {
-                width: 100%;
+                flex-basis: 45%;
             }
 
             &_steps {
@@ -492,6 +498,7 @@
         }
 
         &__info {
+            margin-top: 0;
             flex-basis: 45%;
             &-news {
                 flex-basis: 70%;
