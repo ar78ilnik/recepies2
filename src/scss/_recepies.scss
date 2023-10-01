@@ -21,5 +21,9 @@
         &__info {
             flex-basis: 50%;
         }
+
+        &__picture {
+            object-fit: cover;
+        }
     }
 }
