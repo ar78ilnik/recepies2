@@ -142,6 +142,11 @@
         }
     }
 
+    &__foo {
+        height: 230px;
+        overflow: hidden;
+    }
+
     &__info-news,
     &__info_search,
     &__info_main {
@@ -314,6 +319,10 @@
             gap: 24px;
             padding-left: 24px;
         }
+
+        &__foo {
+            height: 430px;
+        }
     }
 }
 
@@ -334,6 +343,7 @@
         &_recepies {
             flex-direction: row;
             flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         &_emissions {
@@ -509,7 +519,6 @@
         &__foo {
             flex-basis: 50%;
             height: 470px;
-            overflow: hidden;
         }
 
         &__mind {

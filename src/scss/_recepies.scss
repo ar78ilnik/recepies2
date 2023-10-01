@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+
+    &__picture {
+        object-fit: cover;
+    }
 }
 
 @media (min-width: $tv) {
@@ -20,10 +24,6 @@
 
         &__info {
             flex-basis: 50%;
-        }
-
-        &__picture {
-            object-fit: cover;
         }
     }
 }
