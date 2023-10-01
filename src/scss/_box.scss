@@ -332,7 +332,8 @@
         }
 
         &_recepies {
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
         }
 
         &_emissions {

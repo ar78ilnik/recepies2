@@ -11,6 +11,10 @@
         color: var(--text);
         font-size: 150%;
     }
+
+    &__text {
+        color: var(--brown-darkest);
+    }
 }
 
 @media (min-width: $tv) {
