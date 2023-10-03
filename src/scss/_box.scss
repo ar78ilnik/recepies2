@@ -517,8 +517,10 @@
         }
 
         &__foo {
-            flex-basis: 50%;
-            height: 470px;
+            height: 340px;
+            &_values {
+                flex-basis: 50%;
+            }
         }
 
         &__mind {

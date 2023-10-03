@@ -1,7 +1,7 @@
 .us {
 	display: flex;
 	flex-direction: column;
-	gap: 40px;
+	gap: 20px;
 	&__picture {
 		width: 100%;
 	}
@@ -9,7 +9,6 @@
 
 @media (min-width: $pv) {
 	.us {
-		display: block;
 		&__picture {
 			width: 391px;
 			float: left;
