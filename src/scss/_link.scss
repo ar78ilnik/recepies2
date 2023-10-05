@@ -10,8 +10,9 @@
     justify-content: flex-start;
     gap: 10px;
 
-    &_header {
-        color: var(--text);
+    &_cta {
+        color: var(--white);
+        background-color: var(--brown-darkest);
         font-family: 'Raleway-Regular', sans-serif;
         line-height: 2.8;
         border-radius: 30px;
