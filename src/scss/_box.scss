@@ -104,6 +104,10 @@
             background-size: cover;
         }
 
+        &_recepies {
+            gap: 24px;
+        }
+
         &_ingredients {
             background-color: var(--table);
             padding: 32px 16px;
@@ -407,7 +411,6 @@
 
             &_recepies {
                 flex-basis: 45%;
-                gap: 0;
             }
 
             &_values {
