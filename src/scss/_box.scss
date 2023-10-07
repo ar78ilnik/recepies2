@@ -147,6 +147,9 @@
     }
 
     &__foo {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
         height: 230px;
         overflow: hidden;
     }
@@ -198,6 +201,10 @@
         &_green .title_h3-mind {
             color: var(--text);
         }
+    }
+
+    &_news {
+        padding-top: 2em;
     }
 
     &_writer {
