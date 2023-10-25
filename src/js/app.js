@@ -9,7 +9,7 @@ import {
 } from "./modules/ingr.js";
 import {
     ticket
-} from "./modules/ticket.js"
+} from "./modules/ticket.js";
 func();
 //form();
 ingr();
