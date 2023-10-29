@@ -1,9 +1,9 @@
 import {
     func
 } from "./modules/script.js";
-//import {
-//    form
-//} from "./modules/form.js";
+import {
+    form
+} from "./modules/form.js";
 import {
     ingr
 } from "./modules/ingr.js";
@@ -12,5 +12,5 @@ import {
 } from "./modules/ticket.js";
 func();
 //form();
-ingr();
+//ingr();
 ticket();

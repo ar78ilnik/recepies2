@@ -15,5 +15,41 @@
         </div>
     </main>
     @@include('html_components/_footer.html')
-    <script src="js/app.min.js"></script>
+    <script>
+        let select = document.querySelector('.ingredients__select'),
+            options = document.querySelectorAll('.table_ings td:nth-child(2)'),
+            optval = [];
+
+            let i = 0;
+            for (let opt of options) {
+                optval[i] = opt.textContent;
+                i++;
+            }
+
+            i = 0;  
+            for(opt of options){
+                opt.textContent = optval[i] * 2;    
+                i++;
+            } 
+
+        function personSum() {
+            let sum = document.getElementById('doses').value;
+            i = 0;
+            for (let opt of options) {
+                opt.textContent = optval[i] * sum;
+                i++;
+            }
+        }
+
+        select.addEventListener('change', personSum);
+    </script>
+    <script>
+        let t = document.querySelector(".table_ings");
+        let j = [].reduce.call(t.rows, function(res, row) {
+            res[row.cells[0].textContent.slice()] = row.cells[1].textContent;
+            return res
+        }, {});
+
+        document.getElementById("pre").textContent = JSON.stringify(j, null, 2);
+    </script>
 </body>
