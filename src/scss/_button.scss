@@ -53,6 +53,7 @@
         border-radius: 25px;
         color: var(--white);
         background-color: var(--brown-darkest);
+
         &-news {
             width: 67%;
             align-self: center;
@@ -72,15 +73,28 @@
         background-image: url(../img/sprite.svg#search);
         background-repeat: no-repeat;
     }
+
     &_questions {
         justify-self: end;
+    }
+
+    &_social {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 2px solid var(--brown);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
     }
 }
 
 @media (min-width: $tv) {
     .button {
         &_ingredients {
-            grid-column: 2/4;
+            grid-column: 1/4;
             grid-row: 4/5;
             justify-self: end;
         }
