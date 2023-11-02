@@ -9,7 +9,6 @@
 
 @media (min-width: $tv) {
     .footer {
-
         &__partners {
             justify-self: end;
         }
@@ -20,7 +19,6 @@
             gap: 24px;
             position: relative;
         }
-
         &__social::before {
             display: block;
             content: '';
@@ -37,16 +35,13 @@
 
 @media (min-width: $pv) {
     .footer {
-
         &__partners,
         &__delivery {
             position: relative;
         }
-
         &__partners {
             justify-self: start;
         }
-
         &__partners::before {
             display: block;
             content: '';

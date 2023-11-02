@@ -26,6 +26,18 @@
         text-decoration: underline;
         font-size: 80%;
     }
+    &-previous {
+        flex-basis: 40%;
+    }
+    &-previous .link_nav {
+        justify-content: start;
+    }
+    &-next {
+        flex-basis: 40%;
+    }
+    &-next .link_nav {
+        justify-content: end;
+    }
 }
 
 @media (min-width: $pv) {
