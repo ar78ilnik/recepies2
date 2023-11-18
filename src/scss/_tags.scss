@@ -4,11 +4,15 @@
     gap: 20px;
     flex-wrap: wrap;
 
-    &_news,
     &_main,
     &_search {
         grid-column: 1/4;
-        grid-row: 3/4;
+        grid-row: 2/3;
+    }
+
+    &_news {
+        grid-column: 1/4;
+        grid-row: 2/3;
     }
 
     &__item {

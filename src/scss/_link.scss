@@ -24,7 +24,7 @@
 
     &_main {
         grid-column: 1/4;
-        grid-row: 4/5;
+        grid-row: 3/4;
     }
 
     &_menu {
@@ -67,7 +67,7 @@
 
     &_news {
         grid-column: 3/4;
-        grid-row: 4/5;
+        grid-row: 3/4;
         font-size: 80%;
         color: var(--link);
         justify-content: end;

@@ -16,16 +16,10 @@
         width: 100%;
     }
 
-    &_news {
-        grid-column: 1/4;
-        grid-row: 2/3;
-        font-size: 110%;
-    }
-
     &_date {
         font-size: 90%;
         grid-column: 1/2;
-        grid-row: 4/5;
+        grid-row: 3/4;
         font-size: 90%;
         text-align: left;
     }
@@ -50,12 +44,6 @@
         top: -15px;
         left: -10%;
         z-index: -1;
-    }
-
-    &_recepies {
-        line-height: 1.5;
-        grid-column: 1/4;
-        grid-row: 2/3;
     }
 
     &_questions {
@@ -98,10 +86,6 @@
 @media (min-width: $tv) {
     .text {
         width: 60%;
-
-        &_news {
-            font-size: 110%;
-        }
 
         &_promo {
             width: 357px;
@@ -153,7 +137,6 @@
         &_recepies,
         &_review,
         &_writer,
-        &_news,
         &_privacy {
             width: 100%;
         }
@@ -176,14 +159,6 @@
 
         &_questions {
             flex-basis: 50%;
-        }
-        
-        &_news {
-            font-size: 100%;
-            &--intro {
-                width: 74%;
-                margin: 0 auto;
-            }
         }
 
         &_us {
