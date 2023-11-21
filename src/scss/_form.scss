@@ -22,11 +22,13 @@
     &__legend {
         text-transform: uppercase;
         cursor: pointer;
+        font-size: 1.2em;
         font-weight: 500;
         line-height: 210%;
         position: relative;
         display: block;
         width: 100%;
+        margin-bottom: 1em;
     }
 
     &__legend::after {
