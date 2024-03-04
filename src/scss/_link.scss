@@ -30,6 +30,10 @@
         font-weight: 400;
     }
 
+    &_contents {
+        font-family: 'PlayfairDisplay-Italic', sans-serif;
+    }
+
     &_menu:hover {
         color: var(--brown);
     }
@@ -46,6 +50,10 @@
         grid-column: 1/4;
         grid-row: 3/4;
         justify-self: start;
+    }
+
+    &_contents {
+        font-size: 100%;
     }
 
     &_recepie {

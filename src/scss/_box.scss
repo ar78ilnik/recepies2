@@ -136,8 +136,7 @@
     &__writer {
         width: 100%;
         height: 100%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        border-radius: 10px;
 
         &_wrapper {
             grid-column: 1/2;
@@ -332,6 +331,9 @@
 
         &__foo {
             height: 430px;
+            &_us {
+                height: 516px;
+            }
         }
     }
 }
@@ -536,6 +538,9 @@
             &_values {
                 flex-basis: 50%;
             }
+            &_us {
+                height: 880px;
+            }
         }
 
         &__mind {
@@ -552,9 +557,6 @@
         }
 
         &__picture {
-            border-top-left-radius: 10px;
-            border-top-right-radius: 0;
-            border-bottom-left-radius: 10px;
 
             &_green {
                 border-top-left-radius: 0;
@@ -577,6 +579,16 @@
         &__writer {
             grid-column: 2/3;
             grid-row: 1/2;
+        }
+    }
+}
+
+@media (min-width: $extra) {
+    .box {
+        &__foo {
+            &_us {
+                display: block;
+            }
         }
     }
 }

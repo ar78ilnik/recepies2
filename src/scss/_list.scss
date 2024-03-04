@@ -12,6 +12,32 @@
         display: block;
         margin-top: 1.42em;
     }
+
+    &_contents {
+        margin-top: 3em;
+    }
+
+    &__item {
+        &_contents {
+            margin-bottom: 1.5em;
+        }
+        &_dishes {
+            margin-left: 1.5em;
+            position: relative;
+            margin-bottom: 0.5em;
+        }
+        &_dishes::before {
+            display: block;
+            content: '';
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: var(--dishes-counter);
+            position: absolute;
+            top: 2px;
+            left: -22px;
+        }
+    }
 }
 
 @media (min-width: $pv) {

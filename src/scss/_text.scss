@@ -11,9 +11,19 @@
     &_steps,
     &_us,
     &_news,
-    &_privacy {
+    &_privacy,
+    &_history,
+    &_dishes {
         text-align: left;
         width: 100%;
+    }
+
+    &_us {
+        margin-bottom: .5em;
+    }
+
+    &_history {
+        margin-bottom: 1em;
     }
 
     &_date {
@@ -90,6 +100,10 @@
         &_promo {
             width: 357px;
             font-size: 100%;
+        }
+
+        &_history {
+            width: 100%;
         }
 
         &_inst {
