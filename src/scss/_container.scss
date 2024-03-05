@@ -23,14 +23,6 @@
         gap: 40px;
     }
 
-    &_history,
-    &_dishes {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 2em;
-    }
-
     &_news {
         padding-top: 2em;
         display: flex;
@@ -75,11 +67,6 @@
     .container {
         width: $tc;
 
-        &_history {
-            width: 100%;
-            margin: 0;
-        }
-
         &_promo {
             widows: $tc;
         }
@@ -99,11 +86,6 @@
         &_main {
             margin-bottom: 9em;
             width: 60%;
-        }
-
-        &_history {
-            width: 100%;
-            display: grid;
         }
 
         &_promo {
@@ -133,10 +115,7 @@
 @media (min-width: $extra) {
     .container {
         width: $pc-extra;
-
-        &_history {
-            width: 100%;
-        }
+        
         &_search {
             width: $pc-extra;
         }

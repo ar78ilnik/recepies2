@@ -6,7 +6,6 @@
 
     &_recepies,
     &_authors,
-    &_intro,
     &_feck,
     &_steps,
     &_us,
@@ -145,7 +144,6 @@
             text-align: left;
         }
 
-        &_intro,
         &_feck,
         &_steps,
         &_recepies,
@@ -178,11 +176,6 @@
         &_us {
             font-size: 108%;
             line-height: 1.6;
-        }
-
-        &_intro {
-            width: 70%;
-            text-align: center;
         }
 
         &_number {
