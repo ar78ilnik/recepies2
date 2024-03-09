@@ -46,6 +46,7 @@
     }
 
     &_main,
+    &_single,
     &_footer {
         width: $mc;
         display: flex;
@@ -57,7 +58,8 @@
         padding-top: 80px;
     }
 
-    &_main {
+    &_single {
+        gap: 0;
         align-items: center;
     }
 
