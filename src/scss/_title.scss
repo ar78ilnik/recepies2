@@ -7,7 +7,7 @@
         text-align: center;
         font-size: 180%;
         &--main {
-            text-align: left;
+            text-align: center;
         }
     }
 
@@ -81,6 +81,9 @@
             &--news {
                 width: 100%;
             }
+            &--main {
+                text-align: left;
+            }
         }
 
         &_h1--main::after {
@@ -101,7 +104,7 @@
     }
 }
 
-@mrdia (min-width: $extra) {
+@media (min-width: $extra) {
     .title {
         &_h2 {
             grid-column: 1/3;

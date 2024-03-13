@@ -59,7 +59,7 @@
     }
 
     &_single {
-        gap: 0;
+        gap: 10px;
         align-items: center;
     }
 
@@ -121,6 +121,10 @@
 @media (min-width: $extra) {
     .container {
         width: $pc-extra;
+
+        &_single {
+            width: 50%;
+        }
         
         &_search {
             width: $pc-extra;
