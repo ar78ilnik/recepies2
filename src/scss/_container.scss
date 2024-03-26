@@ -36,6 +36,12 @@
         padding-top: 2em;
     }
 
+    &_single {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
     &_search {
         display: flex;
         flex-direction: column;
@@ -46,7 +52,6 @@
     }
 
     &_main,
-    &_single,
     &_footer {
         width: $mc;
         display: flex;
@@ -56,11 +61,6 @@
         gap: 80px;
         margin-bottom: 3em;
         padding-top: 80px;
-    }
-
-    &_single {
-        gap: 10px;
-        align-items: center;
     }
 
     &_footer {
